@@ -1,0 +1,20 @@
+<svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22 24V47C22 48.6569 23.3431 50 25 50H59C60.6569 50 62 48.6569 62 47V24" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 19.5C31 22.5376 28.5376 25 25.5 25C22.4624 25 20 22.5376 20 19.5V16" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 19.5C31 22.5376 33.4624 25 36.5 25C39.5376 25 42 22.5376 42 19.5" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 19.5C42 22.5376 44.4624 25 47.5 25C50.5376 25 53 22.5376 53 19.5" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M53 19.5C53 22.5376 55.4624 25 58.5 25C61.5376 25 64 22.5376 64 19.5V16" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 6H58L64 16H42H20L26 6Z" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="35" y="32" width="14" height="18" fill="#212B35" fill-opacity="0.06"/>
+<path d="M35 50V33C35 32.4477 35.4477 32 36 32H48C48.5523 32 49 32.4477 49 33V50" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 24H43V54C43 56.2091 41.2091 58 39 58H7C4.79086 58 3 56.2091 3 54V24Z" fill="white"/>
+<path d="M3 32V55C3 56.6569 4.34315 58 6 58H40C41.6569 58 43 56.6569 43 55V32" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.5 24.5H34.5L35 30.5C35.6667 31.5 37.6 33.4 40 33C42.4 32.6 44 30.1667 44.5 29V24.5Z" fill="white"/>
+<path d="M12 27.5C12 30.5376 9.53757 33 6.5 33C3.46243 33 1 30.5376 1 27.5V24" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 27.5C12 30.5376 14.4624 33 17.5 33C20.5376 33 23 30.5376 23 27.5" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 27.5C23 30.5376 25.4624 33 28.5 33C31.5376 33 34 30.5376 34 27.5" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 27.5C34 30.5376 36.4624 33 39.5 33C42.5376 33 45 30.5376 45 27.5V24" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 14H39L45 24H23H1L7 14Z" fill="white" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="16" y="40" width="14" height="18" fill="#212B35" fill-opacity="0.06"/>
+<path d="M16 58V41C16 40.4477 16.4477 40 17 40H29C29.5523 40 30 40.4477 30 41V58" stroke="#212B35" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

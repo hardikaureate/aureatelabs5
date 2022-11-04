@@ -1,0 +1,114 @@
+@media only screen and (max-width: 767px) {
+  .column-border:nth-child(-n+2) .column-border-inner {
+    border-bottom: 0 solid rgba(255, 255, 255, 0.1); }
+
+  .column-border .column-border-inner {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
+.tri-grip-block {
+  background-color: #F2FDF9; }
+
+.csd-study-label-column .cs-platform-logo:not(:last-child) {
+  margin-right: 15px; }
+
+.csd-challenges-content-ul li {
+  position: relative;
+  padding-left: 45px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-top: 1px solid rgba(233, 233, 233, 0.2); }
+  .csd-challenges-content-ul li:last-child {
+    border-bottom: 1px solid rgba(233, 233, 233, 0.2); }
+  @media only screen and (max-width: 767px) {
+    .csd-challenges-content-ul li {
+      padding-left: 36px;
+      padding-top: 16px;
+      padding-bottom: 16px; } }
+  .csd-challenges-content-ul li span {
+    position: absolute;
+    left: 0;
+    top: 32px; }
+    @media only screen and (max-width: 767px) {
+      .csd-challenges-content-ul li span {
+        top: 16px; } }
+
+.csd-solution-content a {
+  text-decoration: underline;
+  color: #666666; }
+
+.csd-label-video-wrap {
+  position: relative; }
+  .csd-label-video-wrap .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s ease-in-out; }
+    @media only screen and (max-width: 767px) {
+      .csd-label-video-wrap .play-icon {
+        width: 40px;
+        height: 40px; } }
+  .csd-label-video-wrap #cs-play-video {
+    cursor: pointer; }
+    .csd-label-video-wrap #cs-play-video:hover {
+      transform: translate(-50%, -50%) scale(0.95); }
+
+.csd-label-platforms-logo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.csd-label-platforms-logo-single {
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(33, 43, 53, 0.1);
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px; }
+  @media only screen and (max-width: 767px) {
+    .csd-label-platforms-logo-single {
+      margin-bottom: 16px; } }
+  .csd-label-platforms-logo-single img {
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 150px; }
+
+.cs-ss-desc-section .container {
+  max-width: 1680px; }
+.cs-ss-desc-section .cs-screenshot-item {
+  margin-top: 40px; }
+  @media only screen and (min-width: 768px) {
+    .cs-ss-desc-section .cs-screenshot-item:nth-child(odd) {
+      padding-right: 40px; }
+    .cs-ss-desc-section .cs-screenshot-item:nth-child(even) {
+      padding-left: 40px; } }
+  @media only screen and (max-width: 767px) {
+    .cs-ss-desc-section .cs-screenshot-item {
+      margin-top: 32px; } }
+  .cs-ss-desc-section .cs-screenshot-item .csd-solution-content-wrap span {
+    text-decoration: underline; }
+  .cs-ss-desc-section .cs-screenshot-item .csd-solution-content-wrap a {
+    text-decoration: underline;
+    color: #666666; }
+
+@media only screen and (max-width: 767px) {
+  .casestudy-testimonial-row {
+    padding-inline-start: 0;
+    padding-inline-end: 0; } }
+
+.csd-challenges-content-wrap .checklist {
+  max-width: 680px; }
+
+@media only screen and (max-width: 767px) {
+  .vuestorefront-view-all,
+  .vuestorefront-previous-arrow,
+  .vuestorefront-next-arrow {
+    width: 25px;
+    height: 15px; } }
+
+/*# sourceMappingURL=case-studies-detail.css.map */

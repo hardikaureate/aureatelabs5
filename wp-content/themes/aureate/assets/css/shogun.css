@@ -1,0 +1,76 @@
+.shogun-page .page-banner .banner-text {
+  max-width: 930px; }
+
+.shopify-stores-need-shogun .top-text {
+  max-width: 800px; }
+.shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box {
+  border-radius: 10px;
+  border: 1px solid #E9E9E9;
+  position: relative;
+  transition: all .3s ease;
+  overflow: hidden;
+  height: 100%; }
+  .shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box .shopify-stores-logo {
+    background: #F8F8F8;
+    border-bottom: 1px solid #E9E9E9; }
+    @media screen and (max-width: 767px) {
+      .shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box .shopify-stores-logo img {
+        height: 25px;
+        width: auto; } }
+  .shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box ul {
+    margin-bottom: 22px; }
+    .shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box ul li {
+      color: #212B35;
+      margin-bottom: 16px;
+      position: relative;
+      padding-left: 30px;
+      background-image: url(../images/close_red_icon.svg);
+      background-repeat: no-repeat;
+      background-position: left 9px; }
+      .shopify-stores-need-shogun .shopify-stores-row .shopify-stores-box ul li:last-child {
+        margin-bottom: 0; }
+@media screen and (max-width: 767px) {
+  .shopify-stores-need-shogun .shopify-stores-row [class*="col-"]:last-child {
+    padding-top: 24px; } }
+.shopify-stores-need-shogun .shopify-stores-row [class*="col-"]:last-child ul li {
+  background-image: url(../images/right_icon.svg); }
+.shopify-stores-need-shogun.bg-dark .section-heading {
+  color: #FFFFFF; }
+.shopify-stores-need-shogun.bg-dark p {
+  color: #A1A1A1; }
+.shopify-stores-need-shogun .how-shopify-works .how-shopify-works-box {
+  border: 1px solid #374049;
+  border-radius: 10px;
+  height: 100%; }
+  @media screen and (max-width: 767px) {
+    .shopify-stores-need-shogun .how-shopify-works .how-shopify-works-box img {
+      height: 40px;
+      width: auto; } }
+  .shopify-stores-need-shogun .how-shopify-works .how-shopify-works-box p {
+    color: #A1A1A1; }
+.shopify-stores-need-shogun .how-shopify-works [class*="col-"]:last-child {
+  padding-bottom: 0; }
+
+.one-headline-will-go .one-headline-will-go-text {
+  max-width: 540px; }
+
+.what-makes-choice ul li {
+  border-bottom: solid 1px rgba(161, 161, 161, 0.2);
+  padding: 32px 0px; }
+  @media screen and (max-width: 767px) {
+    .what-makes-choice ul li {
+      padding: 16px 0px; }
+      .what-makes-choice ul li h3 {
+        font-weight: 400; } }
+  .what-makes-choice ul li:first-child {
+    border-top: solid 1px rgba(161, 161, 161, 0.2); }
+
+.our-services .our-services-link {
+  max-width: 400px;
+  margin-left: auto; }
+  .our-services .our-services-link h3 {
+    border-bottom: solid 1px rgba(161, 161, 161, 0.2); }
+    .our-services .our-services-link h3:first-child {
+      border-top: solid 1px rgba(161, 161, 161, 0.2); }
+
+/*# sourceMappingURL=shogun.css.map */

@@ -1,0 +1,2010 @@
+@import "partials/variables";
+
+// Hire Maintenance Expert CSS Start
+.ul-digits {
+    li {
+        position: relative;
+        padding-left: 40px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        border-top: 1px solid rgba(233, 233, 233, 0.2);
+        &:last-child{
+            border-bottom: 1px solid rgba(233, 233, 233, 0.2);
+        }
+        @media screen and (max-width:$screen-sm-max){
+            padding-left: 36px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        span {
+           position: absolute;
+           left: 0;
+           top: 32px;
+           @media screen and (max-width:$screen-sm-max){
+                top: 16px;
+            }
+        }
+       a{
+        color: #fff;
+       }
+    }
+}
+.bg-dark{
+    .ul-digits {
+        li {
+            a{
+                color: $A1A1A1;
+            }
+        }
+    }
+}
+.hire-section{ 
+    &.bg-dark{
+        h3,
+        .section-heading,
+        .checklist{
+            color: $white-color;
+        }
+        .section-description,
+        .list-counter,
+        .hire-right-description{
+            color: $A1A1A1;
+        }
+    }
+}
+
+// Shopify Support Services CSS
+.square-platform-row {
+    .shopify-support-service-col{
+        .square-platform-box{
+            &:hover {
+                .square-platform-arrow:before {
+                    background-position: 0;
+                }
+            }
+        }
+    }
+}
+
+// Industries served CSS 
+.industry-blocks{
+    .industry-blocks-row{
+        &:not(:last-child){
+            margin-bottom: 40px;
+        }
+        .industry-blocks-image{
+            img{
+                border-radius: 10px;
+                border: 1px solid $mercury-color;
+            }
+        }
+        .industry-blocks-content{
+            max-width: 400px;
+            margin: 0 auto;
+            @media only screen and (max-width: $screen-sm-max) {
+                max-width: 100%;
+            }
+            .industry-blocks-content-icon{
+                width: 60px;
+                @media only screen and (max-width: $screen-sm-max) {
+                    width: 35px;
+                }
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        &:nth-child(even) {
+            div:first-child{
+                order: 2;
+                @media only screen and (max-width: $screen-sm-max) {
+                    order: unset;
+                }
+            }
+            div:nth-child(2){
+                .industry-blocks-content{
+                    @media only screen and (max-width: $screen-md-max) {
+                        padding-left: 50px;
+                    }
+                    @media only screen and (max-width: $screen-sm-max) {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// FAQ
+.support-maintanance-faq-section{
+    .accordion-content{
+        line-height: 1.57;
+        .work-desc{
+            margin-bottom: 24px;
+        }
+        .work-list{
+            &:not(:last-child){
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .accordion-wrap{
+        .accordion-link{
+            padding-right: 20px;
+            &:before{
+                top:7px;
+                @media only screen and (max-width: $screen-sm-max) {
+                    top:4px;
+                    width: 12px;
+                }
+            }
+        }
+    } 
+}
+
+// Conatct Form
+.support-maintanance-contact-form-section{
+    .section-desc{
+        max-width: 390px;
+    }
+    .contact-form{
+        position: relative;
+        border-radius: 3px;
+        border: 1px solid $mercury-color;
+        textarea{
+            height: 92px;
+        }
+        input[type="submit"]{
+            @supports (-webkit-touch-callout: none) {
+                -webkit-appearance: none;
+            }
+        }
+    }
+
+}
+
+// Step Section 
+.step-section{
+    &.bg-dark{
+        .section-heading{
+            color: $white-color;
+            max-width: 479px;
+        }
+        .section-description{
+            max-width: 440px;
+            color: $A1A1A1;
+        }
+        .step-section-col{
+            @media only screen and (min-width: $screen-lg-min) {
+                &:nth-last-child(-n+2){
+                    .step-section-inner-col{
+                        border-bottom: 1px solid rgba($mercury-color, 0.2);
+                    }
+                }
+            }
+        }
+        .step-section-inner-col{
+            border-top: 1px solid rgba($mercury-color, 0.2);
+            padding-left: 44px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            position: relative;
+            
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-left: 34px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                &:last-child{
+                    border-bottom: 1px solid rgba($mercury-color, 0.2);
+                }
+            }
+            .list-counter{
+                position: absolute;
+                left: 0;
+                top: 40px;
+                color: $A1A1A1;
+                @media only screen and (max-width: $screen-sm-max) {
+                    top: 16px;
+                }
+            }
+            h3{
+                color: $white-color;
+                font-weight: $font-weight-normal;
+            }
+            .desciption{
+                color: $A1A1A1;
+                line-height: 1.56;
+            }
+        }
+    }
+}
+
+// migrate to magento-2 page
+.migrate-to-magento-2-page{
+    .support-hero-full{
+        .hero-banner-title{
+            max-width: 615px;
+        }
+        .hero-banner-desc{
+            max-width: 800px;
+        }
+    }
+    .shopify-support-section{
+        .section-heading{
+            margin-bottom: 24px;
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-bottom: 16px;
+            }
+        }
+        .square-platform-box-icon{
+            @media only screen and (max-width: $screen-md-max) {
+                max-width: 110px;
+            }
+        }
+    }
+   
+    .new-images-with-text.bg-white {
+        .row {
+            align-items: center;
+        }
+    }
+    .hire-section{
+        &.bg-dark{
+            .section-heading {
+                max-width: 440px;
+            }
+            .section-description{
+                max-width: 400px;
+            }
+            &.do-not-migrate{
+                .section-heading,
+                .section-description{
+                    max-width: 100%;
+                }
+                .arrow-btn{
+                    margin-top: 40px;
+                    color: $white-color;
+                    span:after {
+                        background-image: url(../images/cta-white-arrow.svg);
+                    }
+                }
+            }
+            .checklist{
+                padding-left: 110px;
+                @media only screen and (max-width: $screen-md-max) {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+// Why Choose Us CSS
+.progressive-web-apps-for-shopify-page{
+    .square-platform-box-wrap{
+        justify-content: start;
+    }
+}
+.why-choose-us-row{
+    padding-inline-end: 0;
+    .square-platform-box-icon{
+        @media only screen and (min-width: $screen-md-min) {
+            img{
+                width: auto;
+                height: 60px;
+                max-width: 60px;
+                max-height: 60px;
+            }
+        }
+        @media only screen and (max-width: $screen-md-max) {
+            max-width: 40px;
+            max-height: 40px;
+        }
+    }
+}
+.slider-scroller-wrap {
+    overflow: hidden;
+    .slider-scroller-inner {
+        display: flex;
+        width: 100%;
+        position: relative;
+        .item {
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            text-align: center;
+            flex: 0 0 33.33%;
+        }
+    }
+}
+.slider-nav-btn-wrap{
+    @media only screen and (max-width: $screen-sm-max) {
+        display: none;
+    }
+    
+    .prev,.next{
+        width: 55px;
+        height: 55px;
+        padding: 0;
+        border: 1px solid $secondary-color;
+        background-color: transparent;
+        svg{
+            path{
+                stroke: $secondary-color;
+            }
+        }
+        &:disabled{
+            border: 1px solid $silver-color;
+            svg {
+                path{
+                    transition: all 0.3s ease;
+                    stroke: $silver-color;
+                }
+            }
+            &:hover{
+                border: 1px solid $silver-color;
+                svg {
+                    path{
+                        transition: all 0.3s ease;
+                        stroke: $silver-color;
+                    }
+                }
+            }
+        }
+        &:hover{
+            border: 1px solid #E7B900;
+            svg {
+                path{
+                    transition: all 0.3s ease;
+                    stroke: #E7B900;
+                }
+            }
+        }
+    }
+}
+.slider-scroller-inner{
+    @media only screen and (max-width: $screen-sm-max) {
+        transform: unset !important; 
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -webkit-scroll-snap-type: x mandatory;
+        -moz-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+        padding-inline-start: 24px;
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar { 
+            display: none;
+        }
+    }
+}
+.square-platform-row {
+    [class*="col-"]{
+        &.slider-col{
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-right: 12px !important;
+                padding-left: 12px !important;
+                min-width: 275px;
+            }
+        }
+    }
+}
+
+//Maintenance Package Section
+.package-cols{
+    line-height: 1.65;
+    &:first-child{
+        font-weight: $font-weight-bold;
+        font-size: 20px;
+    }
+    div{
+        &:first-child{
+            width: 42%;
+            border-bottom: 1px solid rgba($white-color,0.1);
+        }
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4){
+            width: 16%;
+            border-bottom: 1px solid rgba($white-color,0.1);
+            .checked{
+                background-image: url(../images/checkmark-yellow-icon.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-left: 30px;
+            }
+            .dashed{
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                span{
+                    background-color: #fff;
+                    height: 2px;
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+.packages-mobile{
+    ul{
+        border: 1px solid rgba($white-color,0.2);
+        border-radius: 6px;
+        margin-top: 24px;
+        li{
+            &:not(:first-child){
+                padding-left: 36px;
+            }
+            &:not(:last-child){
+                margin-bottom: 16px;
+            }
+            &.checked{
+                background-image: url(../images/checkmark-yellow-icon.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 30px;
+            }
+            &.dashed{
+                background-image: url(../images/cross-icon.svg);
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 30px;
+                background-size: 13px;
+            }
+        }
+    }
+}
+
+.more-about-package {
+    .arrow-btn {
+        span{
+            &:after{
+                background-image: url(../images/cta-white-arrow.svg);
+            }
+        }
+    }
+}
+
+// Testimonial Section
+.shopify-maintenance-services-page,
+.magento-maintenance-services-page{
+    .testimonials-dark{
+        &.bg-light{
+            .section-sub-heading{
+                color:$secondary-color
+            }
+            .testimonial-row{
+                margin-top: 18px;
+                .testimonial-col{
+                    -webkit-box-flex: 0;
+                    -ms-flex: 0 0 50%;
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                }
+            }
+        }
+        .testimonials-row-parent{
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+}
+.magento-maintenance-services-page{
+    .new-images-with-text{
+        .section-heading{
+            max-width: 540px;
+        }
+    }
+}
+
+// Common Image Section
+.new-images-with-text{
+    .left-content-desc{
+        max-width: 540px;
+    }
+}
+
+// PWA for Shopify
+.progressive-web-apps-for-shopify-page{
+    .page-banner{
+        @media only screen and (min-width: $screen-md-min) {
+        padding-top: 166px; 
+        }
+    }
+}
+.sm_hero_counter_col{
+    width: 45%;
+}
+.sm_hero_counter_col{
+    border-top: 1px solid #626262;  
+    border-bottom: 1px solid #626262;  
+    padding: 16px 0;
+    margin-bottom: -1px;
+    @media only screen and (max-width: $screen-md-max) {
+        .font-md-70 {
+            font-size:34px;
+            line-height:34px;
+        }
+        .m_hero_counter_text{
+            font-size:10px; 
+        }
+    }
+}
+.content_common_image_section{
+    h2{
+        max-width: 480px;
+    }
+}
+.testimonials-dark.bg-dark{
+    .section-heading{
+        color: $white-color;
+        margin-bottom: 50px;
+        @media only screen and (max-width: $screen-sm-max) {
+            margin-bottom: 30px;
+        }
+    }
+    .testimonial-row{
+        margin: 0;
+        width: 50%;
+        margin: 0;
+        @media only screen and (max-width: $screen-sm-max) {
+            width:100%; 
+        }
+        .testimonial-block{
+            background: $white-color;
+            border: 0;
+            &::after{
+                display: none;
+            }
+            &::before{
+                border: 0 ;
+                width: 0;
+                height: 0;
+                border-top: 25px solid $white-color;
+                border-right: 25px solid transparent;
+                transform: inherit;
+                background: none;
+                bottom: -25px;
+                left: 0;
+                @media only screen and (max-width: $screen-sm-max) {
+                    bottom: -21px
+                }
+            }
+            p{
+                color: $gray-light;
+            }
+        }
+        .testimomial-user{
+            p{
+                color: $white-color;; 
+                span{
+                color: $A1A1A1;
+                }
+            }
+        }
+        .col-md-4{
+            width: 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 0 !important;
+        }
+    }
+    .testimonials-img{
+        padding-left:80px;
+        @media only screen and (max-width: $screen-sm-max) {
+            width:100%; 
+            padding-left:20px;
+        }
+    }
+}
+.progressive-web-apps-for-shopify-page{
+    .square-platform-row{
+        .square-platform-arrow{
+            display: none;
+        }
+    }
+    .hire-section.bg-dark .section-heading {
+        max-width: 380px;
+    }
+    .banner-right{
+        max-width: 550px;
+    }
+    .hero-banner-desc{
+        max-width: 547px;
+    }
+}
+.dark-bg-features-list{
+    .row{
+        margin:0 -47px;
+        @media only screen and (max-width: $screen-sm-max) {
+            margin:0 -20px;
+        }
+        [class*="col-"]{
+            padding:40px 47px;
+            @media only screen and (max-width: $screen-sm-max) {
+                padding:15px 20px;
+                img {
+                    height: auto;
+                    max-width:40px;
+                    max-height:40px;
+                }
+            }
+            h3{
+                border-top: 1px solid #E9E9E9;
+            }
+        }
+    }
+}
+.hire-section.bg-dark{
+    .listing-withoutnum{
+        p{
+            color: $A1A1A1;
+        }
+        h3{
+            @media only screen and (max-width: $screen-sm-max) {
+                font-weight: $font-weight-normal;
+            }
+        }
+        li{
+            &:last-child{
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+.hire-section.bg-light, .hire-section.bg-white{
+    .ul-digits{
+        li{
+            border-color: $mercury-color;
+        }
+        h3{
+            font-weight: $font-weight-normal;
+            color: $primary-color;
+        }
+        p, a{
+            color: $body-color;
+        }
+    }
+}
+.btn-dark-hover:hover{
+    background-color: $black-color;
+}
+.content_emergency_support_services{
+    .row{
+        [class*="col-"]:first-child{
+            padding-right: 50px;
+            padding-bottom:25px;
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-right: 20px;
+            }
+        }
+        p{
+            margin-bottom:24px;
+            font-size: 16px;
+            line-height: 25px;
+        }
+        ul{
+            font-weight: $font-weight-normal;
+            font-size: 16px;
+            line-height: 25px;
+            color: $primary-color;
+            margin-left:30px;
+            li{
+                padding-bottom: 4px;
+                list-style: disc;
+            }
+        }
+        &:nth-child(odd){
+            [class*="col-"]:first-child{
+                padding-left: 50px;
+                padding-right: 0;
+                order: 1;
+                @media only screen and (max-width: $screen-sm-max) {
+                    order: unset;
+                    padding-left:20px;
+                    padding-right:20px;
+                    
+                }
+            }
+        }
+    }
+}
+.progressive-web-apps-for-shopify-page{
+    .new-images-with-text.bg-white{
+        .row{
+            align-items: start;
+        }
+    }
+}
+.new-images-with-text.bg-white{
+    .row{
+        h2{
+            color: $primary-color;  
+        }
+    }
+}
+.new-images-with-text.bg-dark{
+    .row{
+        align-items: center;
+        h2{
+            color: $white-color;  
+        }
+        p, .left-content-desc{
+            color: $A1A1A1;  
+        }
+        .text-right{
+            @media only screen and (max-width: $screen-sm-max) {
+                text-align: left;
+            }
+        }
+    }
+}
+.content_repeater_data{
+    .container{
+        .row{
+            margin: 0;
+            border-bottom: 1px solid $mercury-color;
+            .content_repeater_data-col{
+                max-width: 93%;
+                @media only screen and (max-width: $screen-sm-max) {
+                    max-width: 100%;
+                }
+            }
+            &:nth-child(even){
+                [class*="col-"]{
+                    p{
+                        padding-bottom: 0;
+                    }
+                    &:first-child{
+                        @media only screen and (min-width: $screen-md-min) {
+                        order: 1;
+                        }
+                        padding-right: 0;
+                        .content_repeater_data-col{
+                            margin-left: auto;
+                        }
+                    }
+                    &:last-child{
+                        text-align: left;
+                    }
+                }
+            }
+            &:last-child{
+                border-bottom: 0;
+            }
+        }
+    }
+}
+.magento-2-performance-optimization-page{
+    .content_repeater_data{
+        .container{
+            .row{
+                .content_repeater_data-col{
+                    @media only screen and (min-width: $screen-md-min) {
+                        max-width: 88%;
+                    }
+                }
+            }
+        }
+    }  
+}
+.content-benefits_shopify_pwa.bg-dark{
+    .section-heading{
+        color: $white-color;
+    }
+    p{
+        color: $A1A1A1;
+    }
+    span{
+        color: $A1A1A1;
+    }
+    h3{
+        color: $white-color; 
+    }
+    ul{
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 25px;
+        @media only screen and (max-width: $screen-sm-max) {
+            max-width:100%;
+        }
+    }
+}
+.app-section{
+    @media only screen and (max-width: 768px) {
+        .col-md-6{
+            flex: 0 0 100%;
+            max-width: 100%;
+            .app-desc{
+                padding-bottom: 30px;
+            }
+            &.justify-content-end{
+                justify-content: start;
+            }
+        }
+    }
+    @media only screen and (max-width: $screen-sm-max) {
+        padding: 0;
+    }
+    .justify-content-end{
+        @media only screen and (max-width: $screen-sm-max) {
+            justify-content: start;
+        }
+    }
+}
+.video-section, .content_repeater_data, .content_repeater_data, .content-benefits_shopify_pwa{
+    .justify-content-end, .text-right{
+        @media only screen and (max-width: $screen-sm-max) {
+            justify-content: start;
+            text-align: left;
+        }
+    }
+}
+.hire-section.bg-dark{
+    .arrow-btn span:after{
+        background-image: url(../images/cta-white-arrow.svg);
+    }
+    .arrow-btn{
+        color: $white-color;
+    }
+}
+.progressive-web-apps-for-shopify-page{
+    .content-benefits_shopify_pwa{
+        img{
+            border-radius: 56px;
+        }
+    }
+    .content_emergency_support_services{
+        .section-description{
+            max-width: 800px;
+        }
+    }
+}
+
+// PWA for Shopify end
+
+// Magento Speed Optimization Services
+.magento-2-performance-optimization-page{
+    .hero-banner-desc{
+        p{
+            max-width: 800px;
+        }
+    }
+    .support-maintanance-faq-section{
+        .col-md-5{
+            .section-heading{
+                max-width: 490px;
+            }
+        }
+    }
+}
+.magento-speed-optimization-process{
+    .col-md-5{
+        .section-heading, .section-description{
+            max-width: 440px;
+        }
+    }
+}
+.whyis-magento-optimization-important{
+    @media only screen and (min-width: $screen-md-min) {
+        .col-md-5, .col-md-7{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+// Magento Speed Optimization Services end
+
+// Shopify Support Services CSS
+.square-platform-row {
+    &.shopify-support-serice-row{
+        flex-wrap: wrap;
+    }
+    .shopify-support-service-col {
+        margin-top: 40px;
+        @media screen and (max-width:$screen-sm-max){
+            margin-top: 24px;   
+        }
+        .square-platform-box {
+            .square-platform-arrow{
+                &:before{
+                    background-image: url(../images/clock.svg);
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+.square-platform-row {
+    .why-choose-us-col{
+        margin-top: 40px;
+        @media screen and (max-width:$screen-sm-max){
+            margin-top: 16px;   
+        }
+    }
+}
+// Shopify Support Services CSS end
+
+
+// Shogun-frontend-development-services Start
+
+.shogun-frontend-development-services-page{
+    .step-section{
+      .section-heading{
+        max-width: 100%;
+      }
+    }
+    .hire-section{
+        .section-heading{
+            max-width:458px;
+        }
+    }
+    .hiring-shogun-section{
+        .ul-digits li span{
+            color: $A1A1A1;
+        }
+    }
+    .content_emergency_support_services{
+        .section-description{
+            max-width:820px;
+        } 
+    }
+}
+.package-section-row{
+    .step-section-inner-col{
+        background: $white-color;
+        border: 1px solid $mercury-color;
+        border-radius: 10px;
+    }
+    [class*="col-"]{
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+}
+.howto-choose-shogun{
+    .checklist{
+        li{
+            color: $primary-color;
+        }
+    }
+    @media only screen and (min-width: $screen-md-min) {
+        [class*="col-"]{
+            flex: 0 0 50%;
+            max-width: 50%;
+            &:first-child{
+                .section-description{
+                    max-width: 540px;
+                }
+            }
+        }
+    }
+}
+// Shogun-frontend-development-services end
+
+// Headless PWA for Magento 2 Start
+.progressive-web-apps-for-magento-2-page{
+    .why-chooseus-section{
+        .section-heading{
+        max-width:650px; 
+        }
+    }
+    .content_emergency_support_services{
+        .section-heading{
+          max-width: 842px;  
+        }
+        .section-description{
+            max-width: 820px;  
+          }
+    }
+    .shopify-support-section{
+        .col-md-6{
+            .square-platform-box{
+                background: $white-color;
+            }
+        }
+        .desc{
+          max-width: 720px;  
+        }
+    }
+    .hero-banner-title{
+        max-width: 553px;
+    }
+}
+.progressive-web-apps-for-magento-2-page{
+    .logo-row{
+        flex-wrap: wrap;
+        .logo-col{
+            padding-right:25px;
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-right:13px;
+            }
+            &:nth-child(1){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 45px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(2){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 10px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(3){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 41px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(4){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height:6px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(5){
+                img{
+                    height: 75px;
+                    width: auto;
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height:38px;
+                    }
+                }
+            }
+            &:nth-child(6){
+                padding-right: 0;
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height:14px;
+                    }
+                }
+            }
+        }
+        padding-bottom: 50px;
+        @media only screen and (max-width: $screen-sm-max) {
+            padding-bottom:31px;
+        }
+    }
+    .hire-magento-company-section{
+        .col-md-3{
+            @media only screen and (min-width: $screen-md-min) {
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+            }
+        }
+    }
+}
+// Headless PWA for Magento 2 end
+
+
+.hire-magento-company-section{
+    .row{
+        .single-hire-block{
+            
+            img{
+                max-width: 60px;
+                max-height: 60px;
+                min-width: 60px;
+                min-height: 60px;
+                @media only screen and (max-width: $screen-sm-max) {
+                    height: auto;
+                    max-width: 40px;
+                    max-height: 40px;
+                    min-width: 40px;
+                    min-height: 40px;
+                }
+            }
+            h3{
+                border-top: 1px solid rgba($white-color, 0.1);
+            }
+        }
+    }
+    &.bg-dark{
+        .arrow-btn{
+            color: $white-color;
+            span{
+                &:after{
+                    background-image: url(../images/cta-white-arrow.svg);
+                }
+            }
+        }
+    }
+    &.bg-light{
+        .section-heading{
+            color: $primary-color;
+        }
+        .section-description{
+            margin-bottom: 0;
+        }
+        .row{
+            padding-top: 0;
+        }
+        .single-hire-block{
+            margin-top: 80px;
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-top: 32px;
+            }
+            h3{
+                color: $primary-color;
+                border-top: 1px solid #E9E9E9;
+                @media only screen and (max-width: $screen-sm-max) {
+                    padding-bottom: 8px;
+                }
+                span{
+                    padding: 0;
+                }
+            }
+            .section-description,
+            .single-hire-desc{
+                color: $body-color;
+            }
+        }
+    }
+   
+}
+
+// Counter Section Start 
+.counter-section{
+    .row{
+        .col-md-3{
+            margin-top: 20px;
+        }
+    }
+    @media only screen and (max-width: $screen-sm-max) {
+        .column-border:nth-child(-n+2) .column-border-inner {
+            border-bottom: 0 solid rgba($white-color,0.1);
+        }
+        .column-border .column-border-inner {
+            border-top: 1px solid rgba($white-color,0.1);
+            border-bottom: 1px solid rgba($white-color,0.1);
+        }
+    }
+}
+// Counter Section End
+
+// magento web development company page Start
+.magento-web-development-company-page{
+    .step-section{
+        &.bg-dark{
+            .section-heading{
+                max-width: 100%;
+            }
+        }
+        ul{
+            li{
+                color: $white-color;
+                font-size: 14px;
+                @media only screen and (max-width: $screen-sm-max) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .magento-2-service{
+        .section-description,
+        .section-heading{
+            max-width: 540px;
+        }
+        ul{
+            li{
+                position: relative;
+            }
+            .list-icon{
+                position: absolute;
+                max-width: 26px;
+                max-height: 26px;
+                height: auto;
+                @media only screen and (max-width: $screen-sm-max) {
+                    max-width: 18px;
+                    max-height: 18px;
+                    height: auto;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .list-title{
+                padding-left: 45px !important;
+                @media only screen and (max-width: $screen-sm-max) {
+                    padding-left: 30px !important;
+                }
+            }
+        }
+    }
+    .content_emergency_support_services{
+        .section-description{
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-bottom: 32px;
+            }
+        }
+    } 
+    .hire-section{
+        .section-heading,
+        .section-description{
+            max-width: 460px;
+        }
+        .listing-withoutnum{
+            max-width: 600px;
+            margin-left: auto;
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-top: 32px;
+            }
+            .custom-dots{
+                
+                li{
+                    color: $A1A1A1;
+                    padding-left: 25px;
+                    position: relative;
+                    @media only screen and (max-width: $screen-sm-max) {
+                        padding-left: 20px;
+                    }
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        top: 12px;
+                        left: 5px;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background-color: $A1A1A1;
+                        @media only screen and (max-width: $screen-sm-max) {
+                            width: 4px;
+                            height: 4px;
+                            top: 9px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .testimonials-dark{
+        &.bg-light{
+            .section-sub-heading{
+                color: #E7B900;
+            }
+            .testimonials-row-parent{
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+    }
+    .new-images-with-text{
+        .new-images-with-text-image{
+            margin-top: 50px;
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-top: 0;
+            }
+
+        }
+    }
+    .what-to-expect-section{
+        .section-heading,
+        .section-description{
+            max-width: 100%;
+        }
+        .checklist{
+            max-width: 600px;
+            margin-left: auto;
+            @media only screen and (max-width: $screen-sm-max) {
+                margin-top: 40px;
+            }
+
+            li{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+// magento web development company page End
+.testimonials-dark.bg-light{
+    .p-xl-2{
+        color: $primary-color;
+        p{
+            font-size: 18px;
+            color: $primary-color;
+            &:empty{
+                margin-bottom: 0 !important;
+            }
+            @media only screen and (max-width: $screen-md-max) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+.testimonials-dark.bg-dark{
+    .p-xl-2{
+        color: $gray-light;
+        p{
+            font-size: 18px;
+            &:empty{
+                margin-bottom: 0 !important;
+            }
+            @media only screen and (max-width: $screen-md-max) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.what-web-dev-section{
+    .what-web-dev-image{
+        padding-top: 90px;
+        @media only screen and (max-width: $screen-md-max) {
+            padding-top: 50px;
+        }
+        @media only screen and (max-width: $screen-sm-max) {
+            padding-top: 8px;
+        }
+    }
+    .checklist{
+        margin-bottom: 50px;
+        @media only screen and (max-width: $screen-sm-max) {
+            margin-bottom: 32px;
+        }
+        li{
+            color: $primary-color;
+        }
+    }
+}
+
+.hyva-theme-development-page{
+    .logo-row{
+        flex-wrap: wrap;
+        .logo-col{
+            padding-right:25px;
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-right:13px;
+                line-height: 1;
+            }
+            &:nth-child(1){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 20px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(2){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 10px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(3){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height: 20px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(4){
+                img{
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height:6px;
+                        width: auto;
+                    }
+                }
+            }
+            &:nth-child(5){
+                padding-right: 0;
+
+                img{
+                    height: 75px;
+                    width: auto;
+                    @media only screen and (max-width: $screen-sm-max) {
+                        height:38px;
+                    }
+                }
+            }
+        }
+        padding-top: 100px;
+        @media only screen and (max-width: $screen-sm-max) {
+            padding-top:32px;
+        }
+    }
+    .hire-magento-company-section{
+        .single-hire-block{
+            margin-top: 40px;
+            h3{
+                font-weight: $font-weight-medium;
+            }
+        }
+    }
+    .new-images-with-text{
+        .platform-image{
+            .logo-row{
+                padding-top: 40px;
+                line-height: 1;
+                @media only screen and (max-width: $screen-sm-max) {
+                    padding-top: 24px;
+                }
+
+            }
+        }
+    }
+    .what-hyva-theme-section{
+        .left-content-desc{
+            max-width: 500px;
+        }
+        .new-images-with-text-image{
+            img{
+                width: 100%;
+            }
+        }
+        .platform-image{
+            .logo-col{
+                padding-right:25px;
+                @media only screen and (max-width: $screen-lg-max) {
+                    padding-right:13px;
+                    line-height: 1;
+                }
+                &:nth-child(1){
+                    img{
+                        @media only screen and (max-width: $screen-lg-max) {
+                            height: 20px;
+                            width: auto;
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    img{
+                        @media only screen and (max-width: $screen-lg-max) {
+                            height: 10px;
+                            width: auto;
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    img{
+                        @media only screen and (max-width: $screen-lg-max) {
+                            height: 20px;
+                            width: auto;
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    img{
+                        @media only screen and (max-width: $screen-lg-max) {
+                            height:6px;
+                            width: auto;
+                        }
+                    }
+                }
+                &:nth-child(5){
+                    padding-right: 0;
+    
+                    img{
+                        height: 75px;
+                        width: auto;
+                        @media only screen and (max-width: $screen-lg-max) {
+                            height:38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// contact us page Start 
+.contact-us-page{
+    .phone-icons,
+    .email-icons{
+        padding-left: 30px;
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+        background-repeat: no-repeat;
+        background-position: center left;
+        @media only screen and (max-width: $screen-sm-max) {
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+        }
+    }
+    .phone-icons{
+        background-image: url('../images/call-icon.svg');
+    }
+    .email-icons{
+        background-image: url('../images/email-icon.svg');
+    }
+}
+// contact us page End
+
+
+// hire vue storefront developer Section Start
+
+.hire-developers-section{
+    h1{
+        margin-bottom: 50px;
+        padding-top: 40px;
+        @media only screen and (max-width: $screen-md-max) {
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    }
+    .hire-developers-col-main{
+        + .hire-developers-col-main{
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 24px;
+            }
+        }
+    }
+    .hire-developers-col{
+        border: 1px solid $mercury-color;
+        border-radius: 10px;
+        .hire-developers-upper{
+            border-bottom: 1px solid $mercury-color;
+            img{
+                @media only screen and (max-width: $screen-md-max) {
+                    width: 36px;
+                }       
+            }
+        }
+        .hire-developers-lower-img{
+            height: 222px;
+            @media only screen and (max-width: $screen-md-max) {
+                height: 111px;
+            }  
+            
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+// hire vue storefront developer Section End
+
+
+// storefont expert section Start 
+.storefont-expert-section{
+    h2{
+        margin-bottom: 50px;
+        max-width: 800px;
+        @media only screen and (max-width: $screen-md-max) {
+            margin-bottom: 32px;
+        }
+    }
+    .storefont-expert-col-main{
+        + .storefont-expert-col-main{
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 24px;
+            }
+        }
+    }
+    .storefont-expert-col{
+        border: 1px solid $mercury-color;
+        border-radius: 10px;
+        overflow: hidden;
+        .storefont-expert-upper{
+            border-bottom: 1px solid $mercury-color;
+            img{
+                @media only screen and (max-width: $screen-md-max) {
+                    width: 36px;
+                }       
+            }
+        }
+        .storefont-expert-lower{
+            padding: 32px 40px;
+            @media only screen and (max-width: $screen-md-max) {
+                padding: 24px;
+            }
+        }
+        .storefont-expert-lower-label{
+            width: 180px;
+            @media only screen and (max-width: $screen-md-max) {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+        .storefont-expert-lower-data{
+            width: calc(100% - 220px);
+            @media only screen and (max-width: $screen-md-max) {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+        .storefont-expert-lower-row {
+            line-height: 1;
+            padding-bottom: 24px;
+            @media only screen and (max-width: $screen-md-max) {
+                padding-bottom: 16px;
+            }
+            &:last-child{
+                padding-bottom: 0;
+            }
+            @media only screen and (max-width: $screen-md-max) {
+                flex-wrap: wrap;
+            }
+            + .storefont-expert-lower-row {
+                border-top: 1px solid $mercury-color;
+                padding-top: 24px;
+                @media only screen and (max-width: $screen-md-max) {
+                    padding-top: 16px;
+                }
+            }
+        }
+    }
+}
+
+// Skills 
+
+.skillset-section{
+    .skillset-table {
+        table{
+            border-collapse: collapse;
+            color: #212b35;
+            border: 1px solid $mercury-color;
+            @media only screen and (max-width: $screen-sm-max) {
+                display: block;
+                border: 0;
+            }
+            tbody{
+                @media only screen and (max-width: $screen-sm-max) {
+                    display: block;
+                }
+            }
+            tr{
+                @media only screen and (max-width: $screen-sm-max) {
+                    display: block;
+                    margin-bottom: 24px;
+                }
+                th {
+                    padding: 20px 30px;
+                    text-align: left;
+                    border: 1px solid $mercury-color;
+                    white-space: nowrap;
+                    @media only screen and (max-width: $screen-lg-max) {
+                        display: block;
+                        padding: 20px 16px;
+                        border-bottom: 0;
+                    }
+                    h3{
+                        font-weight: $font-weight-bold;
+                        font-size: $font-24;
+                        line-height: 35px;
+                        color: $primary-color;
+                        @media only screen and (max-width: $screen-lg-max) {
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+                td{
+                    padding: 30px 30px 20px;
+                    border: 1px solid $mercury-color;
+                    @media only screen and (max-width: $screen-lg-max) {
+                        display: block;
+                        padding: 16px 16px 6px;
+                    }
+                    span{
+                        display: inline-block;
+                        vertical-align: top;
+                        padding: 10px 20px;
+                        border: 1px solid $mercury-color;
+                        border-radius: 30px;
+                        margin: 0 10px 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Boost conversation Section
+@media only screen and (max-width: $screen-sm-max) {
+    .column-border:nth-child(-n+2) .column-border-inner {
+      border-bottom: 0 solid rgba($white-color,0.1);
+    }
+    .column-border .column-border-inner {
+      border-top: 1px solid rgba($white-color,0.1);
+      border-bottom: 1px solid rgba($white-color,0.1);
+    }
+}
+
+//  FAQ SECTION 
+.hire-shopify-developer-page,
+.hire-vue-storefront-developer-page,
+.hire-magento-developer-page{
+    .support-maintanance-faq-section{
+        [class*="col-"]{
+            flex: 0 0 50%;
+            max-width: 50%;
+            @media only screen and (max-width: $screen-sm-max) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .section-heading{
+                max-width: 525px;
+            }
+        }
+        .faq-right{
+            padding-left: 0 !important;
+        }
+    }
+    .support-maintanance-contact-form-section{
+        .contact-form-right{
+            @media screen and (min-width: 992px){
+                padding-left: 0 !important;
+            }
+        }
+    }
+}
+// SUPPORT SECTION
+.hire-shopify-developer-page,
+.hire-vue-storefront-developer-page,
+.hire-magento-developer-page{
+    .shopify-support-section{
+        .section-heading{
+            max-width: 800px;
+        }
+        .square-platform-box{
+            background-color: $white-color;
+        }
+    }
+}
+
+
+// Hire Magento Developer
+.hire-magento-developer-page{
+    .hire-section,
+    .advantages-of-hiring{
+        [class*="col-"]{
+            flex: 0 0 50%;
+            max-width: 50%;
+            @media only screen and (max-width: $screen-sm-max) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .section-heading{
+                max-width: 525px;
+            }
+        }
+        .checklist{
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+// Hire Vue Developer
+.hire-vue-storefront-developer-page{
+    .why-hire-vue-dev,
+    .easy-steps{
+        [class*="col-"]{
+            flex: 0 0 50%;
+            max-width: 50%;
+            @media only screen and (max-width: $screen-sm-max) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .section-heading{
+                max-width: 525px;
+            }
+        }
+        .checklist{
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 32px;
+            }
+        }
+    }
+    .why-hire-vue-dev{
+        .checklist{
+            max-width: 600px;
+            margin-left: auto;
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 32px;
+            }
+
+        }
+    }
+    .common-image-hire-vue-dev{
+        .left-content-desc {
+            max-width: 537px;
+        }
+    }
+    .shopify-support-section{
+        .section-heading{
+            max-width: 800px;
+        }
+        .square-platform-box{
+            background-color: $white-color;
+        }
+    }
+    .counter-section {
+        .section-heading {
+            @media only screen and (max-width: $screen-md-max) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+    .easy-steps{
+        .section-heading{
+            max-width: 479px;
+        }
+        .checklist{
+            max-width: 600px;
+            margin-left: auto;
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 43px;
+            }
+        }
+    }
+}
+
+// Hire Shopify Developer
+.hire-shopify-developer-page{
+    .hire-section{
+        [class*="col-"]{
+            flex: 0 0 50%;
+            max-width: 50%;
+            @media only screen and (max-width: $screen-sm-max) {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .section-heading{
+                max-width: 525px;
+            }
+        }
+        .checklist{
+            @media only screen and (max-width: $screen-md-max) {
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+.hyva-success-stories{
+    .section-desc{
+        max-width: 540px;
+    }
+    .hyva-success-stories-right-col{
+        .col-md-6{
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.industry-we-served-section{
+    &.bg-white{
+        .industry-desc{
+            a{
+                position: relative;
+                color: $body-color;
+                display: inline-block;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 1px;
+                    width: 100%;
+                    background-color: $body-color;
+                }
+            }
+        }
+    }
+    padding-top: 100px;
+    padding-bottom: 60px;
+    @media screen and (max-width:991px) {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    @media screen and (max-width:767px) {
+        padding-top: 40px;
+    }
+    
+    .industry-single {
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #E9E9E9;
+        min-height: 380px; 
+        margin-bottom: 40px;
+        cursor: pointer;
+        @media screen and (max-width:767px) {
+            min-height: auto;
+            &:not(:last-child){
+                margin-bottom: 24px;
+            }
+        }
+        @media screen and (min-width:768px) {
+            &:hover{
+                .industry-image-upper {
+                    margin-top: -241px; 
+                }
+                .industry-content-down {
+                    padding-top: 80px;
+                }
+            }
+        }
+        .industry-image-upper {
+            line-height: 1;
+            transition: all 0.3s ease; 
+            height: 241px;
+            @media screen and (max-width:767px) {
+                height: auto;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .industry-content-down {
+            padding: 26px 77px; 
+            transition: all 0.3s ease;
+            @media screen and (max-width:767px) {
+                padding: 24px; 
+            }
+            .industry-desc{
+                a{
+
+                }
+                @media screen and (min-width:768px) {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+}
+
+
+
+.bg-light{
+    .link-description{
+        a{
+            color: $primary-color;
+        }
+    }
+}
+.bg-dark{
+    .link-description{
+        a{
+            color: $A1A1A1;
+        }
+    }
+}
+.link-description{
+    a{
+        color: $body-color;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }   
+}
+.hero-banner-desc{
+    &.link-description{
+        a{
+            color: $white-color; 
+        }  
+    }
+}

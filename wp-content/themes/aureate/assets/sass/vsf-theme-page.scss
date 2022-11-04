@@ -1,0 +1,114 @@
+@import "partials/variables";
+
+// Thy Fashion - Theme for Vue Storefront 1 CSS Start
+
+.page_banner{
+  padding-top:160px;
+  @media only screen and (max-width: $screen-sm-max) {
+    padding-top:110px;
+  }
+  h1{
+    max-width: 750px;
+    margin: auto;
+  }
+  .page-banner-img{
+    img{
+      box-shadow: 0 6px 15px 0 #f8f8f8;
+    }
+  }
+}
+.about-the-theme{
+  .about-the-theme-text{
+    max-width: 660px;
+  }
+  .about-the-theme-box{
+    border-radius: 10px;
+    border: 1px solid $mercury-color;
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+    height: 100%;
+    max-width: 505px;
+    margin-left: auto;
+    .about-the-theme-title{
+      background: $bg-light-color;
+      border-bottom: 1px solid $mercury-color;
+      b{
+        font-size: 44px;
+        line-height: 50px;
+        @media only screen and (max-width: $screen-sm-max) {
+          font-size:24px;
+          line-height: 30px;
+        }
+      }
+      img{
+        @media screen and (max-width:$screen-sm-max){
+          height: 25px;
+          width: auto;
+        }
+      }
+    }
+    li{
+      @media only screen and (max-width: $screen-sm-max) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.content_powerful_features_list{
+  .content_powerful_list_box{
+    border-radius: 10px;
+    border: 1px solid $mercury-color;
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+    height: 100%;
+      img{
+        @media only screen and (max-width: $screen-sm-max) {
+        height: 40px;
+        width: auto;
+      }
+    }
+  }
+}
+.vsf-thy-fashion-theme-page{
+  .section-desc{
+      max-width: 390px;
+  }
+  .contact-form{
+      position: relative;
+      border-radius: 3px;
+      border: 1px solid $mercury-color;
+      textarea{
+          height: 92px;
+      }
+  }
+}
+.content_powerful_features_list{
+  [class*="col-"]{
+    @media only screen and (max-width: $screen-sm-max) {
+      &:first-child{
+        padding-bottom: 25px;
+      }
+    }
+  }
+  .powerful_features_list_box{
+    border-radius: 10px;
+    border: 1px solid $mercury-color;
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+    height: 100%;
+    margin-left: auto;
+    background:$white-color;
+    .powerful_features_list_title{
+      border-bottom: 1px solid $mercury-color;
+    }
+    img{
+      @media only screen and (max-width: $screen-sm-max) {
+      height: 40px;
+      width: auto;
+      }
+    }
+  }
+}

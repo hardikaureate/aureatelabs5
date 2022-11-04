@@ -1,0 +1,81 @@
+.page_banner {
+  padding-top: 160px; }
+  @media only screen and (max-width: 767px) {
+    .page_banner {
+      padding-top: 110px; } }
+  .page_banner h1 {
+    max-width: 750px;
+    margin: auto; }
+  .page_banner .page-banner-img img {
+    box-shadow: 0 6px 15px 0 #f8f8f8; }
+
+.about-the-theme .about-the-theme-text {
+  max-width: 660px; }
+.about-the-theme .about-the-theme-box {
+  border-radius: 10px;
+  border: 1px solid #E9E9E9;
+  position: relative;
+  transition: all .3s ease;
+  overflow: hidden;
+  height: 100%;
+  max-width: 505px;
+  margin-left: auto; }
+  .about-the-theme .about-the-theme-box .about-the-theme-title {
+    background: #F8F8F8;
+    border-bottom: 1px solid #E9E9E9; }
+    .about-the-theme .about-the-theme-box .about-the-theme-title b {
+      font-size: 44px;
+      line-height: 50px; }
+      @media only screen and (max-width: 767px) {
+        .about-the-theme .about-the-theme-box .about-the-theme-title b {
+          font-size: 24px;
+          line-height: 30px; } }
+    @media screen and (max-width: 767px) {
+      .about-the-theme .about-the-theme-box .about-the-theme-title img {
+        height: 25px;
+        width: auto; } }
+  @media only screen and (max-width: 767px) {
+    .about-the-theme .about-the-theme-box li {
+      font-size: 14px; } }
+
+.content_powerful_features_list .content_powerful_list_box {
+  border-radius: 10px;
+  border: 1px solid #E9E9E9;
+  position: relative;
+  transition: all .3s ease;
+  overflow: hidden;
+  height: 100%; }
+  @media only screen and (max-width: 767px) {
+    .content_powerful_features_list .content_powerful_list_box img {
+      height: 40px;
+      width: auto; } }
+
+.vsf-thy-fashion-theme-page .section-desc {
+  max-width: 390px; }
+.vsf-thy-fashion-theme-page .contact-form {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #E9E9E9; }
+  .vsf-thy-fashion-theme-page .contact-form textarea {
+    height: 92px; }
+
+@media only screen and (max-width: 767px) {
+  .content_powerful_features_list [class*="col-"]:first-child {
+    padding-bottom: 25px; } }
+.content_powerful_features_list .powerful_features_list_box {
+  border-radius: 10px;
+  border: 1px solid #E9E9E9;
+  position: relative;
+  transition: all .3s ease;
+  overflow: hidden;
+  height: 100%;
+  margin-left: auto;
+  background: #FFFFFF; }
+  .content_powerful_features_list .powerful_features_list_box .powerful_features_list_title {
+    border-bottom: 1px solid #E9E9E9; }
+  @media only screen and (max-width: 767px) {
+    .content_powerful_features_list .powerful_features_list_box img {
+      height: 40px;
+      width: auto; } }
+
+/*# sourceMappingURL=vsf-theme-page.css.map */

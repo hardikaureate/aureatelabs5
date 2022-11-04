@@ -1,0 +1,201 @@
+@import "partials/variables";
+
+
+// S2 We are the maker of Vue Storefront Integration 
+.vuestorefront-giving-count{
+    .vuestorefront-giving-count-inner{
+        @media only screen and (max-width: $screen-sm-max) {
+            border-top: 1px solid $mercury-color;
+            border-bottom: 1px solid $mercury-color;
+        }
+    }
+    &:nth-child(-n+2){
+        .vuestorefront-giving-count-inner{
+            @media only screen and (max-width: $screen-sm-max) {
+                border-bottom: 0 solid $mercury-color;
+            }
+        }   
+    }
+}
+.vuestorefront-giving-img{
+    @media only screen and (max-width: $screen-sm-max) {
+        order: 1;
+    }
+    img{
+        @media only screen and (max-width: $screen-sm-max) {
+            max-width: 120px;
+        }
+    }
+}
+
+// S5 Brands choose us as their Headless Commerce Partner
+.vuestorefront-build-next-row{
+    img{
+        border-radius: 6px;
+    }
+    @media only screen and (max-width: $screen-sm-max) {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden; 
+        -webkit-overflow-scrolling: touch;
+        -webkit-scroll-snap-type: x mandatory;
+        -moz-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 24px;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+        [class*="col-"]{
+            padding-right: 8px;
+            padding-left: 8px;
+            min-width: 268px;
+            scroll-snap-align: start;
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar { 
+            display: none;
+        }
+    }
+}
+
+// S6 Launch Headless Commerce in 8 weeks
+.vuestorefront-accelerator-block {
+    border: 1px solid $mercury-color; 
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    .vuestorefront-accelerator-block-heading{
+        border-bottom: 1px solid $mercury-color;
+    }
+    .vuestorefront-accelerator-block-content-row{
+        @media only screen and (max-width: $screen-sm-max) { 
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .plus-icon{
+            max-width: 20px;
+            @media only screen and (max-width: 767px) {
+                max-width: 15px;
+            }
+        }
+        .vuestorefront-accelerator-block-content-single{
+            img{
+                max-width: 134px;
+                min-height: 35px;
+                @media only screen and (max-width: 1024px) {
+                    max-width: 116px;
+                }
+                @media only screen and (max-width: 991px) {
+                    max-width: 96px;
+                }
+            }
+        }
+    }
+}
+
+// S7 Our Vue Storefront services
+.vuestorefont-services-section{
+    @media only screen and (max-width: $screen-sm-max) {
+        .square-platform-row [class*="col-"] {
+            padding-right: 12px !important;
+            padding-left: 12px !important;
+            min-width: 272px;
+        }
+    }
+}
+
+// S8 We integrate with
+.vuestorefront-integrate-row{
+    @media only screen and (max-width: $screen-sm-max) {
+        margin-right: -4px;
+        margin-left: -4px;
+    }
+    .vuestorefront-integrate-col {
+        width: 33.33%;
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+        @media only screen and (max-width: $screen-sm-max) {
+            height: 50px;
+            padding-left: 4px;
+            padding-right: 4px;
+            margin-bottom: 8px;
+        }
+        .vuestorefront-integrate-col-inner {
+            border-radius: 6px;
+            padding: 10px;
+            height: 100%;
+            border: 1px solid $mercury-color;
+            img{
+                object-fit: contain;
+                max-width: 90%;
+                max-height: 50px;
+                @media only screen and (max-width: $screen-sm-max) {
+                    max-width: 69px;
+                }
+            }
+        }
+    }
+}
+
+// S9 Our approach
+.vuestorefront-approach-row{
+    @media only screen and (max-width: $screen-sm-max) {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -webkit-scroll-snap-type: x mandatory;
+        -moz-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 24px;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+        [class*="col-"]{
+            padding-right: 8px;
+            padding-left: 8px;
+            min-width: 268px;
+            scroll-snap-align: start;
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar { 
+            display: none;
+        }
+    }
+    .vuestorefront-approach-block{
+        width: 20%;
+        @media only screen and (max-width: $screen-sm-max) {
+            min-width: 182px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .vuestorefront-approach-image{
+            padding-left: 30px;
+            padding-right: 30px;
+            @media only screen and (max-width: $screen-sm-max) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .vuestorefront-approach-top{
+            min-height: 111px;
+            @media only screen and (max-width: $screen-sm-max) {
+                min-height: 95px;
+            }
+            img{
+                @media only screen and (max-width: $screen-sm-max) {
+                    width: 17%;
+                }
+            }
+        }
+    }
+}
+
+
+
+

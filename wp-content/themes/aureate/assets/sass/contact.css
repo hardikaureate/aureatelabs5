@@ -1,0 +1,95 @@
+@media screen and (max-width: 991px) {
+  .map-address-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+.map-address-section .locate-data {
+  max-width: 416px;
+  border-radius: 8px; }
+  .map-address-section .locate-data .locate-data-title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; }
+  .map-address-section .locate-data .locate-data-content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; }
+  .map-address-section .locate-data .get-direction-btn {
+    color: #FFFFFF; }
+    .map-address-section .locate-data .get-direction-btn:before, .map-address-section .locate-data .get-direction-btn:after {
+      opacity: 1; }
+
+@media screen and (max-width: 991px) {
+  .contact-page-banner {
+    background-image: none !important; } }
+.contact-page-banner .contact-form {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid #E9E9E9;
+  position: relative;
+  border-radius: 10px;
+  top: 130px; }
+  @media screen and (max-width: 991px) {
+    .contact-page-banner .contact-form {
+      top: 0px; } }
+  .contact-page-banner .contact-form textarea {
+    min-height: 140px;
+    resize: none; }
+    @media screen and (max-width: 767px) {
+      .contact-page-banner .contact-form textarea {
+        min-height: 100px; } }
+.contact-page-banner .contact-banner-left-block {
+  padding-top: 130px !important;
+  padding-bottom: 60px; }
+  @media screen and (max-width: 991px) {
+    .contact-page-banner .contact-banner-left-block {
+      padding-top: 110px !important; } }
+  @media screen and (max-width: 767px) {
+    .contact-page-banner .contact-banner-left-block {
+      padding-bottom: 0px;
+      padding-top: 90px !important; } }
+  @media screen and (max-width: 767px) {
+    .contact-page-banner .contact-banner-left-block .section-heading {
+      max-width: 214px;
+      display: block; } }
+.contact-page-banner .contact-mobile-banner {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  .contact-page-banner .contact-mobile-banner img {
+    min-height: 720px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+    @media screen and (max-width: 767px) {
+      .contact-page-banner .contact-mobile-banner img {
+        min-height: 680px; } }
+
+.good-hands-section {
+  padding-top: 190px !important; }
+  @media screen and (max-width: 991px) {
+    .good-hands-section {
+      padding-top: 80px !important; } }
+
+.contact-banner-clutch-img img {
+  width: auto;
+  height: auto;
+  max-width: 171px;
+  max-height: 42px; }
+
+.mail-icon,
+.call-icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 32px;
+  background-size: 20px; }
+  @media screen and (max-width: 767px) {
+    .mail-icon,
+    .call-icon {
+      padding-left: 30px;
+      background-size: 18px; } }
+
+.call-icon {
+  background-image: url(../images/call-icon.svg); }
+
+.mail-icon {
+  background-image: url(../images/email-icon.svg); }
+
+/*# sourceMappingURL=contact.css.map */

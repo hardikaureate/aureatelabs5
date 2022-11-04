@@ -1,0 +1,1173 @@
+.ul-digits li {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-top: 1px solid rgba(233, 233, 233, 0.2); }
+  .ul-digits li:last-child {
+    border-bottom: 1px solid rgba(233, 233, 233, 0.2); }
+  @media screen and (max-width: 767px) {
+    .ul-digits li {
+      padding-left: 36px;
+      padding-top: 16px;
+      padding-bottom: 16px; } }
+  .ul-digits li span {
+    position: absolute;
+    left: 0;
+    top: 32px; }
+    @media screen and (max-width: 767px) {
+      .ul-digits li span {
+        top: 16px; } }
+  .ul-digits li a {
+    color: #fff; }
+
+.bg-dark .ul-digits li a {
+  color: #A1A1A1; }
+
+.hire-section.bg-dark h3,
+.hire-section.bg-dark .section-heading,
+.hire-section.bg-dark .checklist {
+  color: #FFFFFF; }
+.hire-section.bg-dark .section-description,
+.hire-section.bg-dark .list-counter,
+.hire-section.bg-dark .hire-right-description {
+  color: #A1A1A1; }
+
+.square-platform-row .shopify-support-service-col .square-platform-box:hover .square-platform-arrow:before {
+  background-position: 0; }
+
+.industry-blocks .industry-blocks-row:not(:last-child) {
+  margin-bottom: 40px; }
+.industry-blocks .industry-blocks-row .industry-blocks-image img {
+  border-radius: 10px;
+  border: 1px solid #E9E9E9; }
+.industry-blocks .industry-blocks-row .industry-blocks-content {
+  max-width: 400px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 767px) {
+    .industry-blocks .industry-blocks-row .industry-blocks-content {
+      max-width: 100%; } }
+  .industry-blocks .industry-blocks-row .industry-blocks-content .industry-blocks-content-icon {
+    width: 60px; }
+    @media only screen and (max-width: 767px) {
+      .industry-blocks .industry-blocks-row .industry-blocks-content .industry-blocks-content-icon {
+        width: 35px; } }
+    .industry-blocks .industry-blocks-row .industry-blocks-content .industry-blocks-content-icon img {
+      width: 100%; }
+.industry-blocks .industry-blocks-row:nth-child(even) div:first-child {
+  order: 2; }
+  @media only screen and (max-width: 767px) {
+    .industry-blocks .industry-blocks-row:nth-child(even) div:first-child {
+      order: unset; } }
+@media only screen and (max-width: 991px) {
+  .industry-blocks .industry-blocks-row:nth-child(even) div:nth-child(2) .industry-blocks-content {
+    padding-left: 50px; } }
+@media only screen and (max-width: 767px) {
+  .industry-blocks .industry-blocks-row:nth-child(even) div:nth-child(2) .industry-blocks-content {
+    padding-left: 0; } }
+
+.support-maintanance-faq-section .accordion-content {
+  line-height: 1.57; }
+  .support-maintanance-faq-section .accordion-content .work-desc {
+    margin-bottom: 24px; }
+  .support-maintanance-faq-section .accordion-content .work-list:not(:last-child) {
+    margin-bottom: 8px; }
+.support-maintanance-faq-section .accordion-wrap .accordion-link {
+  padding-right: 20px; }
+  .support-maintanance-faq-section .accordion-wrap .accordion-link:before {
+    top: 7px; }
+    @media only screen and (max-width: 767px) {
+      .support-maintanance-faq-section .accordion-wrap .accordion-link:before {
+        top: 4px;
+        width: 12px; } }
+
+.support-maintanance-contact-form-section .section-desc {
+  max-width: 390px; }
+.support-maintanance-contact-form-section .contact-form {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #E9E9E9; }
+  .support-maintanance-contact-form-section .contact-form textarea {
+    height: 92px; }
+  @supports (-webkit-touch-callout: none) {
+    .support-maintanance-contact-form-section .contact-form input[type="submit"] {
+      -webkit-appearance: none; } }
+
+.step-section.bg-dark .section-heading {
+  color: #FFFFFF;
+  max-width: 479px; }
+.step-section.bg-dark .section-description {
+  max-width: 440px;
+  color: #A1A1A1; }
+@media only screen and (min-width: 992px) {
+  .step-section.bg-dark .step-section-col:nth-last-child(-n+2) .step-section-inner-col {
+    border-bottom: 1px solid rgba(233, 233, 233, 0.2); } }
+.step-section.bg-dark .step-section-inner-col {
+  border-top: 1px solid rgba(233, 233, 233, 0.2);
+  padding-left: 44px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .step-section.bg-dark .step-section-inner-col {
+      padding-left: 34px;
+      padding-top: 16px;
+      padding-bottom: 16px; }
+      .step-section.bg-dark .step-section-inner-col:last-child {
+        border-bottom: 1px solid rgba(233, 233, 233, 0.2); } }
+  .step-section.bg-dark .step-section-inner-col .list-counter {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    color: #A1A1A1; }
+    @media only screen and (max-width: 767px) {
+      .step-section.bg-dark .step-section-inner-col .list-counter {
+        top: 16px; } }
+  .step-section.bg-dark .step-section-inner-col h3 {
+    color: #FFFFFF;
+    font-weight: 400; }
+  .step-section.bg-dark .step-section-inner-col .desciption {
+    color: #A1A1A1;
+    line-height: 1.56; }
+
+.migrate-to-magento-2-page .support-hero-full .hero-banner-title {
+  max-width: 615px; }
+.migrate-to-magento-2-page .support-hero-full .hero-banner-desc {
+  max-width: 800px; }
+.migrate-to-magento-2-page .shopify-support-section .section-heading {
+  margin-bottom: 24px; }
+  @media only screen and (max-width: 767px) {
+    .migrate-to-magento-2-page .shopify-support-section .section-heading {
+      margin-bottom: 16px; } }
+@media only screen and (max-width: 991px) {
+  .migrate-to-magento-2-page .shopify-support-section .square-platform-box-icon {
+    max-width: 110px; } }
+.migrate-to-magento-2-page .new-images-with-text.bg-white .row {
+  align-items: center; }
+.migrate-to-magento-2-page .hire-section.bg-dark .section-heading {
+  max-width: 440px; }
+.migrate-to-magento-2-page .hire-section.bg-dark .section-description {
+  max-width: 400px; }
+.migrate-to-magento-2-page .hire-section.bg-dark.do-not-migrate .section-heading,
+.migrate-to-magento-2-page .hire-section.bg-dark.do-not-migrate .section-description {
+  max-width: 100%; }
+.migrate-to-magento-2-page .hire-section.bg-dark.do-not-migrate .arrow-btn {
+  margin-top: 40px;
+  color: #FFFFFF; }
+  .migrate-to-magento-2-page .hire-section.bg-dark.do-not-migrate .arrow-btn span:after {
+    background-image: url(../images/cta-white-arrow.svg); }
+.migrate-to-magento-2-page .hire-section.bg-dark .checklist {
+  padding-left: 110px; }
+  @media only screen and (max-width: 991px) {
+    .migrate-to-magento-2-page .hire-section.bg-dark .checklist {
+      padding-left: 0; } }
+
+.progressive-web-apps-for-shopify-page .square-platform-box-wrap {
+  justify-content: start; }
+
+.why-choose-us-row {
+  padding-inline-end: 0; }
+  @media only screen and (min-width: 768px) {
+    .why-choose-us-row .square-platform-box-icon img {
+      width: auto;
+      height: 60px;
+      max-width: 60px;
+      max-height: 60px; } }
+  @media only screen and (max-width: 991px) {
+    .why-choose-us-row .square-platform-box-icon {
+      max-width: 40px;
+      max-height: 40px; } }
+
+.slider-scroller-wrap {
+  overflow: hidden; }
+  .slider-scroller-wrap .slider-scroller-inner {
+    display: flex;
+    width: 100%;
+    position: relative; }
+    .slider-scroller-wrap .slider-scroller-inner .item {
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      text-align: center;
+      flex: 0 0 33.33%; }
+
+@media only screen and (max-width: 767px) {
+  .slider-nav-btn-wrap {
+    display: none; } }
+.slider-nav-btn-wrap .prev, .slider-nav-btn-wrap .next {
+  width: 55px;
+  height: 55px;
+  padding: 0;
+  border: 1px solid #E7B900;
+  background-color: transparent; }
+  .slider-nav-btn-wrap .prev svg path, .slider-nav-btn-wrap .next svg path {
+    stroke: #E7B900; }
+  .slider-nav-btn-wrap .prev:disabled, .slider-nav-btn-wrap .next:disabled {
+    border: 1px solid #C4C4C4; }
+    .slider-nav-btn-wrap .prev:disabled svg path, .slider-nav-btn-wrap .next:disabled svg path {
+      transition: all 0.3s ease;
+      stroke: #C4C4C4; }
+    .slider-nav-btn-wrap .prev:disabled:hover, .slider-nav-btn-wrap .next:disabled:hover {
+      border: 1px solid #C4C4C4; }
+      .slider-nav-btn-wrap .prev:disabled:hover svg path, .slider-nav-btn-wrap .next:disabled:hover svg path {
+        transition: all 0.3s ease;
+        stroke: #C4C4C4; }
+  .slider-nav-btn-wrap .prev:hover, .slider-nav-btn-wrap .next:hover {
+    border: 1px solid #E7B900; }
+    .slider-nav-btn-wrap .prev:hover svg path, .slider-nav-btn-wrap .next:hover svg path {
+      transition: all 0.3s ease;
+      stroke: #E7B900; }
+
+@media only screen and (max-width: 767px) {
+  .slider-scroller-inner {
+    transform: unset !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-type: x mandatory;
+    -moz-scroll-snap-type: x mandatory;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    padding-inline-start: 24px;
+    /* Hide scrollbar for Chrome, Safari and Opera */ }
+    .slider-scroller-inner::-webkit-scrollbar {
+      display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .square-platform-row [class*="col-"].slider-col {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+    min-width: 275px; } }
+
+.package-cols {
+  line-height: 1.65; }
+  .package-cols:first-child {
+    font-weight: 700;
+    font-size: 20px; }
+  .package-cols div:first-child {
+    width: 42%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  .package-cols div:nth-child(2), .package-cols div:nth-child(3), .package-cols div:nth-child(4) {
+    width: 16%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    .package-cols div:nth-child(2) .checked, .package-cols div:nth-child(3) .checked, .package-cols div:nth-child(4) .checked {
+      background-image: url(../images/checkmark-yellow-icon.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 30px; }
+    .package-cols div:nth-child(2) .dashed, .package-cols div:nth-child(3) .dashed, .package-cols div:nth-child(4) .dashed {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%; }
+      .package-cols div:nth-child(2) .dashed span, .package-cols div:nth-child(3) .dashed span, .package-cols div:nth-child(4) .dashed span {
+        background-color: #fff;
+        height: 2px;
+        width: 20px; }
+
+.packages-mobile ul {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  margin-top: 24px; }
+  .packages-mobile ul li:not(:first-child) {
+    padding-left: 36px; }
+  .packages-mobile ul li:not(:last-child) {
+    margin-bottom: 16px; }
+  .packages-mobile ul li.checked {
+    background-image: url(../images/checkmark-yellow-icon.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; }
+  .packages-mobile ul li.dashed {
+    background-image: url(../images/cross-icon.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    background-size: 13px; }
+
+.more-about-package .arrow-btn span:after {
+  background-image: url(../images/cta-white-arrow.svg); }
+
+.shopify-maintenance-services-page .testimonials-dark.bg-light .section-sub-heading,
+.magento-maintenance-services-page .testimonials-dark.bg-light .section-sub-heading {
+  color: #E7B900; }
+.shopify-maintenance-services-page .testimonials-dark.bg-light .testimonial-row,
+.magento-maintenance-services-page .testimonials-dark.bg-light .testimonial-row {
+  margin-top: 18px; }
+  .shopify-maintenance-services-page .testimonials-dark.bg-light .testimonial-row .testimonial-col,
+  .magento-maintenance-services-page .testimonials-dark.bg-light .testimonial-row .testimonial-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+.shopify-maintenance-services-page .testimonials-dark .testimonials-row-parent,
+.magento-maintenance-services-page .testimonials-dark .testimonials-row-parent {
+  margin-right: 0;
+  margin-left: 0; }
+
+.magento-maintenance-services-page .new-images-with-text .section-heading {
+  max-width: 540px; }
+
+.new-images-with-text .left-content-desc {
+  max-width: 540px; }
+
+@media only screen and (min-width: 768px) {
+  .progressive-web-apps-for-shopify-page .page-banner {
+    padding-top: 166px; } }
+
+.sm_hero_counter_col {
+  width: 45%; }
+
+.sm_hero_counter_col {
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+  padding: 16px 0;
+  margin-bottom: -1px; }
+  @media only screen and (max-width: 991px) {
+    .sm_hero_counter_col .font-md-70 {
+      font-size: 34px;
+      line-height: 34px; }
+    .sm_hero_counter_col .m_hero_counter_text {
+      font-size: 10px; } }
+
+.content_common_image_section h2 {
+  max-width: 480px; }
+
+.testimonials-dark.bg-dark .section-heading {
+  color: #FFFFFF;
+  margin-bottom: 50px; }
+  @media only screen and (max-width: 767px) {
+    .testimonials-dark.bg-dark .section-heading {
+      margin-bottom: 30px; } }
+.testimonials-dark.bg-dark .testimonial-row {
+  margin: 0;
+  width: 50%;
+  margin: 0; }
+  @media only screen and (max-width: 767px) {
+    .testimonials-dark.bg-dark .testimonial-row {
+      width: 100%; } }
+  .testimonials-dark.bg-dark .testimonial-row .testimonial-block {
+    background: #FFFFFF;
+    border: 0; }
+    .testimonials-dark.bg-dark .testimonial-row .testimonial-block::after {
+      display: none; }
+    .testimonials-dark.bg-dark .testimonial-row .testimonial-block::before {
+      border: 0;
+      width: 0;
+      height: 0;
+      border-top: 25px solid #FFFFFF;
+      border-right: 25px solid transparent;
+      transform: inherit;
+      background: none;
+      bottom: -25px;
+      left: 0; }
+      @media only screen and (max-width: 767px) {
+        .testimonials-dark.bg-dark .testimonial-row .testimonial-block::before {
+          bottom: -21px; } }
+    .testimonials-dark.bg-dark .testimonial-row .testimonial-block p {
+      color: #6E7378; }
+  .testimonials-dark.bg-dark .testimonial-row .testimomial-user p {
+    color: #FFFFFF; }
+    .testimonials-dark.bg-dark .testimonial-row .testimomial-user p span {
+      color: #A1A1A1; }
+  .testimonials-dark.bg-dark .testimonial-row .col-md-4 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 0 !important; }
+.testimonials-dark.bg-dark .testimonials-img {
+  padding-left: 80px; }
+  @media only screen and (max-width: 767px) {
+    .testimonials-dark.bg-dark .testimonials-img {
+      width: 100%;
+      padding-left: 20px; } }
+
+.progressive-web-apps-for-shopify-page .square-platform-row .square-platform-arrow {
+  display: none; }
+.progressive-web-apps-for-shopify-page .hire-section.bg-dark .section-heading {
+  max-width: 380px; }
+.progressive-web-apps-for-shopify-page .banner-right {
+  max-width: 550px; }
+.progressive-web-apps-for-shopify-page .hero-banner-desc {
+  max-width: 547px; }
+
+.dark-bg-features-list .row {
+  margin: 0 -47px; }
+  @media only screen and (max-width: 767px) {
+    .dark-bg-features-list .row {
+      margin: 0 -20px; } }
+  .dark-bg-features-list .row [class*="col-"] {
+    padding: 40px 47px; }
+    @media only screen and (max-width: 767px) {
+      .dark-bg-features-list .row [class*="col-"] {
+        padding: 15px 20px; }
+        .dark-bg-features-list .row [class*="col-"] img {
+          height: auto;
+          max-width: 40px;
+          max-height: 40px; } }
+    .dark-bg-features-list .row [class*="col-"] h3 {
+      border-top: 1px solid #E9E9E9; }
+
+.hire-section.bg-dark .listing-withoutnum p {
+  color: #A1A1A1; }
+@media only screen and (max-width: 767px) {
+  .hire-section.bg-dark .listing-withoutnum h3 {
+    font-weight: 400; } }
+.hire-section.bg-dark .listing-withoutnum li:last-child {
+  padding-bottom: 0; }
+
+.hire-section.bg-light .ul-digits li, .hire-section.bg-white .ul-digits li {
+  border-color: #E9E9E9; }
+.hire-section.bg-light .ul-digits h3, .hire-section.bg-white .ul-digits h3 {
+  font-weight: 400;
+  color: #212B35; }
+.hire-section.bg-light .ul-digits p, .hire-section.bg-light .ul-digits a, .hire-section.bg-white .ul-digits p, .hire-section.bg-white .ul-digits a {
+  color: #666666; }
+
+.btn-dark-hover:hover {
+  background-color: #000000; }
+
+.content_emergency_support_services .row [class*="col-"]:first-child {
+  padding-right: 50px;
+  padding-bottom: 25px; }
+  @media only screen and (max-width: 767px) {
+    .content_emergency_support_services .row [class*="col-"]:first-child {
+      padding-right: 20px; } }
+.content_emergency_support_services .row p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 25px; }
+.content_emergency_support_services .row ul {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #212B35;
+  margin-left: 30px; }
+  .content_emergency_support_services .row ul li {
+    padding-bottom: 4px;
+    list-style: disc; }
+.content_emergency_support_services .row:nth-child(odd) [class*="col-"]:first-child {
+  padding-left: 50px;
+  padding-right: 0;
+  order: 1; }
+  @media only screen and (max-width: 767px) {
+    .content_emergency_support_services .row:nth-child(odd) [class*="col-"]:first-child {
+      order: unset;
+      padding-left: 20px;
+      padding-right: 20px; } }
+
+.progressive-web-apps-for-shopify-page .new-images-with-text.bg-white .row {
+  align-items: start; }
+
+.new-images-with-text.bg-white .row h2 {
+  color: #212B35; }
+
+.new-images-with-text.bg-dark .row {
+  align-items: center; }
+  .new-images-with-text.bg-dark .row h2 {
+    color: #FFFFFF; }
+  .new-images-with-text.bg-dark .row p, .new-images-with-text.bg-dark .row .left-content-desc {
+    color: #A1A1A1; }
+  @media only screen and (max-width: 767px) {
+    .new-images-with-text.bg-dark .row .text-right {
+      text-align: left; } }
+
+.content_repeater_data .container .row {
+  margin: 0;
+  border-bottom: 1px solid #E9E9E9; }
+  .content_repeater_data .container .row .content_repeater_data-col {
+    max-width: 93%; }
+    @media only screen and (max-width: 767px) {
+      .content_repeater_data .container .row .content_repeater_data-col {
+        max-width: 100%; } }
+  .content_repeater_data .container .row:nth-child(even) [class*="col-"] p {
+    padding-bottom: 0; }
+  .content_repeater_data .container .row:nth-child(even) [class*="col-"]:first-child {
+    padding-right: 0; }
+    @media only screen and (min-width: 768px) {
+      .content_repeater_data .container .row:nth-child(even) [class*="col-"]:first-child {
+        order: 1; } }
+    .content_repeater_data .container .row:nth-child(even) [class*="col-"]:first-child .content_repeater_data-col {
+      margin-left: auto; }
+  .content_repeater_data .container .row:nth-child(even) [class*="col-"]:last-child {
+    text-align: left; }
+  .content_repeater_data .container .row:last-child {
+    border-bottom: 0; }
+
+@media only screen and (min-width: 768px) {
+  .magento-2-performance-optimization-page .content_repeater_data .container .row .content_repeater_data-col {
+    max-width: 88%; } }
+
+.content-benefits_shopify_pwa.bg-dark .section-heading {
+  color: #FFFFFF; }
+.content-benefits_shopify_pwa.bg-dark p {
+  color: #A1A1A1; }
+.content-benefits_shopify_pwa.bg-dark span {
+  color: #A1A1A1; }
+.content-benefits_shopify_pwa.bg-dark h3 {
+  color: #FFFFFF; }
+.content-benefits_shopify_pwa.bg-dark ul {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 25px; }
+  @media only screen and (max-width: 767px) {
+    .content-benefits_shopify_pwa.bg-dark ul {
+      max-width: 100%; } }
+
+@media only screen and (max-width: 768px) {
+  .app-section .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+    .app-section .col-md-6 .app-desc {
+      padding-bottom: 30px; }
+    .app-section .col-md-6.justify-content-end {
+      justify-content: start; } }
+@media only screen and (max-width: 767px) {
+  .app-section {
+    padding: 0; } }
+@media only screen and (max-width: 767px) {
+  .app-section .justify-content-end {
+    justify-content: start; } }
+
+@media only screen and (max-width: 767px) {
+  .video-section .justify-content-end, .video-section .text-right, .content_repeater_data .justify-content-end, .content_repeater_data .text-right, .content_repeater_data .justify-content-end, .content_repeater_data .text-right, .content-benefits_shopify_pwa .justify-content-end, .content-benefits_shopify_pwa .text-right {
+    justify-content: start;
+    text-align: left; } }
+
+.hire-section.bg-dark .arrow-btn span:after {
+  background-image: url(../images/cta-white-arrow.svg); }
+.hire-section.bg-dark .arrow-btn {
+  color: #FFFFFF; }
+
+.progressive-web-apps-for-shopify-page .content-benefits_shopify_pwa img {
+  border-radius: 56px; }
+.progressive-web-apps-for-shopify-page .content_emergency_support_services .section-description {
+  max-width: 800px; }
+
+.magento-2-performance-optimization-page .hero-banner-desc p {
+  max-width: 800px; }
+.magento-2-performance-optimization-page .support-maintanance-faq-section .col-md-5 .section-heading {
+  max-width: 490px; }
+
+.magento-speed-optimization-process .col-md-5 .section-heading, .magento-speed-optimization-process .col-md-5 .section-description {
+  max-width: 440px; }
+
+@media only screen and (min-width: 768px) {
+  .whyis-magento-optimization-important .col-md-5, .whyis-magento-optimization-important .col-md-7 {
+    flex: 0 0 50%;
+    max-width: 50%; } }
+
+.square-platform-row.shopify-support-serice-row {
+  flex-wrap: wrap; }
+.square-platform-row .shopify-support-service-col {
+  margin-top: 40px; }
+  @media screen and (max-width: 767px) {
+    .square-platform-row .shopify-support-service-col {
+      margin-top: 24px; } }
+  .square-platform-row .shopify-support-service-col .square-platform-box .square-platform-arrow:before {
+    background-image: url(../images/clock.svg);
+    width: 20px;
+    height: 20px; }
+
+.square-platform-row .why-choose-us-col {
+  margin-top: 40px; }
+  @media screen and (max-width: 767px) {
+    .square-platform-row .why-choose-us-col {
+      margin-top: 16px; } }
+
+.shogun-frontend-development-services-page .step-section .section-heading {
+  max-width: 100%; }
+.shogun-frontend-development-services-page .hire-section .section-heading {
+  max-width: 458px; }
+.shogun-frontend-development-services-page .hiring-shogun-section .ul-digits li span {
+  color: #A1A1A1; }
+.shogun-frontend-development-services-page .content_emergency_support_services .section-description {
+  max-width: 820px; }
+
+.package-section-row .step-section-inner-col {
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px; }
+.package-section-row [class*="col-"]:last-child {
+  padding-bottom: 0; }
+
+.howto-choose-shogun .checklist li {
+  color: #212B35; }
+@media only screen and (min-width: 768px) {
+  .howto-choose-shogun [class*="col-"] {
+    flex: 0 0 50%;
+    max-width: 50%; }
+    .howto-choose-shogun [class*="col-"]:first-child .section-description {
+      max-width: 540px; } }
+
+.progressive-web-apps-for-magento-2-page .why-chooseus-section .section-heading {
+  max-width: 650px; }
+.progressive-web-apps-for-magento-2-page .content_emergency_support_services .section-heading {
+  max-width: 842px; }
+.progressive-web-apps-for-magento-2-page .content_emergency_support_services .section-description {
+  max-width: 820px; }
+.progressive-web-apps-for-magento-2-page .shopify-support-section .col-md-6 .square-platform-box {
+  background: #FFFFFF; }
+.progressive-web-apps-for-magento-2-page .shopify-support-section .desc {
+  max-width: 720px; }
+.progressive-web-apps-for-magento-2-page .hero-banner-title {
+  max-width: 553px; }
+
+.progressive-web-apps-for-magento-2-page .logo-row {
+  flex-wrap: wrap;
+  padding-bottom: 50px; }
+  .progressive-web-apps-for-magento-2-page .logo-row .logo-col {
+    padding-right: 25px; }
+    @media only screen and (max-width: 767px) {
+      .progressive-web-apps-for-magento-2-page .logo-row .logo-col {
+        padding-right: 13px; } }
+    @media only screen and (max-width: 767px) {
+      .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(1) img {
+        height: 45px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(2) img {
+        height: 10px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(3) img {
+        height: 41px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(4) img {
+        height: 6px;
+        width: auto; } }
+    .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(5) img {
+      height: 75px;
+      width: auto; }
+      @media only screen and (max-width: 767px) {
+        .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(5) img {
+          height: 38px; } }
+    .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(6) {
+      padding-right: 0; }
+      @media only screen and (max-width: 767px) {
+        .progressive-web-apps-for-magento-2-page .logo-row .logo-col:nth-child(6) img {
+          height: 14px; } }
+  @media only screen and (max-width: 767px) {
+    .progressive-web-apps-for-magento-2-page .logo-row {
+      padding-bottom: 31px; } }
+@media only screen and (min-width: 768px) {
+  .progressive-web-apps-for-magento-2-page .hire-magento-company-section .col-md-3 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; } }
+
+.hire-magento-company-section .row .single-hire-block img {
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 60px;
+  min-height: 60px; }
+  @media only screen and (max-width: 767px) {
+    .hire-magento-company-section .row .single-hire-block img {
+      height: auto;
+      max-width: 40px;
+      max-height: 40px;
+      min-width: 40px;
+      min-height: 40px; } }
+.hire-magento-company-section .row .single-hire-block h3 {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.hire-magento-company-section.bg-dark .arrow-btn {
+  color: #FFFFFF; }
+  .hire-magento-company-section.bg-dark .arrow-btn span:after {
+    background-image: url(../images/cta-white-arrow.svg); }
+.hire-magento-company-section.bg-light .section-heading {
+  color: #212B35; }
+.hire-magento-company-section.bg-light .section-description {
+  margin-bottom: 0; }
+.hire-magento-company-section.bg-light .row {
+  padding-top: 0; }
+.hire-magento-company-section.bg-light .single-hire-block {
+  margin-top: 80px; }
+  @media only screen and (max-width: 767px) {
+    .hire-magento-company-section.bg-light .single-hire-block {
+      margin-top: 32px; } }
+  .hire-magento-company-section.bg-light .single-hire-block h3 {
+    color: #212B35;
+    border-top: 1px solid #E9E9E9; }
+    @media only screen and (max-width: 767px) {
+      .hire-magento-company-section.bg-light .single-hire-block h3 {
+        padding-bottom: 8px; } }
+    .hire-magento-company-section.bg-light .single-hire-block h3 span {
+      padding: 0; }
+  .hire-magento-company-section.bg-light .single-hire-block .section-description,
+  .hire-magento-company-section.bg-light .single-hire-block .single-hire-desc {
+    color: #666666; }
+
+.counter-section .row .col-md-3 {
+  margin-top: 20px; }
+@media only screen and (max-width: 767px) {
+  .counter-section .column-border:nth-child(-n+2) .column-border-inner {
+    border-bottom: 0 solid rgba(255, 255, 255, 0.1); }
+  .counter-section .column-border .column-border-inner {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
+
+.magento-web-development-company-page .step-section.bg-dark .section-heading {
+  max-width: 100%; }
+.magento-web-development-company-page .step-section ul li {
+  color: #FFFFFF;
+  font-size: 14px; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .step-section ul li {
+      font-size: 12px; } }
+.magento-web-development-company-page .magento-2-service .section-description,
+.magento-web-development-company-page .magento-2-service .section-heading {
+  max-width: 540px; }
+.magento-web-development-company-page .magento-2-service ul li {
+  position: relative; }
+.magento-web-development-company-page .magento-2-service ul .list-icon {
+  position: absolute;
+  max-width: 26px;
+  max-height: 26px;
+  height: auto; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .magento-2-service ul .list-icon {
+      max-width: 18px;
+      max-height: 18px;
+      height: auto; } }
+  .magento-web-development-company-page .magento-2-service ul .list-icon img {
+    width: 100%;
+    height: 100%; }
+.magento-web-development-company-page .magento-2-service ul .list-title {
+  padding-left: 45px !important; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .magento-2-service ul .list-title {
+      padding-left: 30px !important; } }
+@media only screen and (max-width: 767px) {
+  .magento-web-development-company-page .content_emergency_support_services .section-description {
+    margin-bottom: 32px; } }
+.magento-web-development-company-page .hire-section .section-heading,
+.magento-web-development-company-page .hire-section .section-description {
+  max-width: 460px; }
+.magento-web-development-company-page .hire-section .listing-withoutnum {
+  max-width: 600px;
+  margin-left: auto; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .hire-section .listing-withoutnum {
+      margin-top: 32px; } }
+  .magento-web-development-company-page .hire-section .listing-withoutnum .custom-dots li {
+    color: #A1A1A1;
+    padding-left: 25px;
+    position: relative; }
+    @media only screen and (max-width: 767px) {
+      .magento-web-development-company-page .hire-section .listing-withoutnum .custom-dots li {
+        padding-left: 20px; } }
+    .magento-web-development-company-page .hire-section .listing-withoutnum .custom-dots li:after {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 5px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #A1A1A1; }
+      @media only screen and (max-width: 767px) {
+        .magento-web-development-company-page .hire-section .listing-withoutnum .custom-dots li:after {
+          width: 4px;
+          height: 4px;
+          top: 9px; } }
+.magento-web-development-company-page .testimonials-dark.bg-light .section-sub-heading {
+  color: #E7B900; }
+.magento-web-development-company-page .testimonials-dark.bg-light .testimonials-row-parent {
+  margin-right: 0;
+  margin-left: 0; }
+.magento-web-development-company-page .new-images-with-text .new-images-with-text-image {
+  margin-top: 50px; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .new-images-with-text .new-images-with-text-image {
+      margin-top: 0; } }
+.magento-web-development-company-page .what-to-expect-section .section-heading,
+.magento-web-development-company-page .what-to-expect-section .section-description {
+  max-width: 100%; }
+.magento-web-development-company-page .what-to-expect-section .checklist {
+  max-width: 600px;
+  margin-left: auto; }
+  @media only screen and (max-width: 767px) {
+    .magento-web-development-company-page .what-to-expect-section .checklist {
+      margin-top: 40px; } }
+  .magento-web-development-company-page .what-to-expect-section .checklist li {
+    color: #212B35; }
+
+.testimonials-dark.bg-light .p-xl-2 {
+  color: #212B35; }
+  .testimonials-dark.bg-light .p-xl-2 p {
+    font-size: 18px;
+    color: #212B35; }
+    .testimonials-dark.bg-light .p-xl-2 p:empty {
+      margin-bottom: 0 !important; }
+    @media only screen and (max-width: 991px) {
+      .testimonials-dark.bg-light .p-xl-2 p {
+        font-size: 14px; } }
+
+.testimonials-dark.bg-dark .p-xl-2 {
+  color: #6E7378; }
+  .testimonials-dark.bg-dark .p-xl-2 p {
+    font-size: 18px; }
+    .testimonials-dark.bg-dark .p-xl-2 p:empty {
+      margin-bottom: 0 !important; }
+    @media only screen and (max-width: 991px) {
+      .testimonials-dark.bg-dark .p-xl-2 p {
+        font-size: 14px; } }
+
+.what-web-dev-section .what-web-dev-image {
+  padding-top: 90px; }
+  @media only screen and (max-width: 991px) {
+    .what-web-dev-section .what-web-dev-image {
+      padding-top: 50px; } }
+  @media only screen and (max-width: 767px) {
+    .what-web-dev-section .what-web-dev-image {
+      padding-top: 8px; } }
+.what-web-dev-section .checklist {
+  margin-bottom: 50px; }
+  @media only screen and (max-width: 767px) {
+    .what-web-dev-section .checklist {
+      margin-bottom: 32px; } }
+  .what-web-dev-section .checklist li {
+    color: #212B35; }
+
+.hyva-theme-development-page .logo-row {
+  flex-wrap: wrap;
+  padding-top: 100px; }
+  .hyva-theme-development-page .logo-row .logo-col {
+    padding-right: 25px; }
+    @media only screen and (max-width: 767px) {
+      .hyva-theme-development-page .logo-row .logo-col {
+        padding-right: 13px;
+        line-height: 1; } }
+    @media only screen and (max-width: 767px) {
+      .hyva-theme-development-page .logo-row .logo-col:nth-child(1) img {
+        height: 20px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .hyva-theme-development-page .logo-row .logo-col:nth-child(2) img {
+        height: 10px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .hyva-theme-development-page .logo-row .logo-col:nth-child(3) img {
+        height: 20px;
+        width: auto; } }
+    @media only screen and (max-width: 767px) {
+      .hyva-theme-development-page .logo-row .logo-col:nth-child(4) img {
+        height: 6px;
+        width: auto; } }
+    .hyva-theme-development-page .logo-row .logo-col:nth-child(5) {
+      padding-right: 0; }
+      .hyva-theme-development-page .logo-row .logo-col:nth-child(5) img {
+        height: 75px;
+        width: auto; }
+        @media only screen and (max-width: 767px) {
+          .hyva-theme-development-page .logo-row .logo-col:nth-child(5) img {
+            height: 38px; } }
+  @media only screen and (max-width: 767px) {
+    .hyva-theme-development-page .logo-row {
+      padding-top: 32px; } }
+.hyva-theme-development-page .hire-magento-company-section .single-hire-block {
+  margin-top: 40px; }
+  .hyva-theme-development-page .hire-magento-company-section .single-hire-block h3 {
+    font-weight: 500; }
+.hyva-theme-development-page .new-images-with-text .platform-image .logo-row {
+  padding-top: 40px;
+  line-height: 1; }
+  @media only screen and (max-width: 767px) {
+    .hyva-theme-development-page .new-images-with-text .platform-image .logo-row {
+      padding-top: 24px; } }
+.hyva-theme-development-page .what-hyva-theme-section .left-content-desc {
+  max-width: 500px; }
+.hyva-theme-development-page .what-hyva-theme-section .new-images-with-text-image img {
+  width: 100%; }
+.hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col {
+  padding-right: 25px; }
+  @media only screen and (max-width: 1279px) {
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col {
+      padding-right: 13px;
+      line-height: 1; } }
+  @media only screen and (max-width: 1279px) {
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(1) img {
+      height: 20px;
+      width: auto; } }
+  @media only screen and (max-width: 1279px) {
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(2) img {
+      height: 10px;
+      width: auto; } }
+  @media only screen and (max-width: 1279px) {
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(3) img {
+      height: 20px;
+      width: auto; } }
+  @media only screen and (max-width: 1279px) {
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(4) img {
+      height: 6px;
+      width: auto; } }
+  .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(5) {
+    padding-right: 0; }
+    .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(5) img {
+      height: 75px;
+      width: auto; }
+      @media only screen and (max-width: 1279px) {
+        .hyva-theme-development-page .what-hyva-theme-section .platform-image .logo-col:nth-child(5) img {
+          height: 38px; } }
+
+.contact-us-page .phone-icons,
+.contact-us-page .email-icons {
+  padding-left: 30px;
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center left; }
+  @media only screen and (max-width: 767px) {
+    .contact-us-page .phone-icons,
+    .contact-us-page .email-icons {
+      width: 20px;
+      height: 20px;
+      background-size: 20px; } }
+.contact-us-page .phone-icons {
+  background-image: url("../images/call-icon.svg"); }
+.contact-us-page .email-icons {
+  background-image: url("../images/email-icon.svg"); }
+
+.hire-developers-section h1 {
+  margin-bottom: 50px;
+  padding-top: 40px; }
+  @media only screen and (max-width: 991px) {
+    .hire-developers-section h1 {
+      margin-top: 10px;
+      margin-bottom: 40px; } }
+@media only screen and (max-width: 991px) {
+  .hire-developers-section .hire-developers-col-main + .hire-developers-col-main {
+    margin-top: 24px; } }
+.hire-developers-section .hire-developers-col {
+  border: 1px solid #E9E9E9;
+  border-radius: 10px; }
+  .hire-developers-section .hire-developers-col .hire-developers-upper {
+    border-bottom: 1px solid #E9E9E9; }
+    @media only screen and (max-width: 991px) {
+      .hire-developers-section .hire-developers-col .hire-developers-upper img {
+        width: 36px; } }
+  .hire-developers-section .hire-developers-col .hire-developers-lower-img {
+    height: 222px; }
+    @media only screen and (max-width: 991px) {
+      .hire-developers-section .hire-developers-col .hire-developers-lower-img {
+        height: 111px; } }
+    .hire-developers-section .hire-developers-col .hire-developers-lower-img img {
+      height: 100%;
+      object-fit: contain; }
+
+.storefont-expert-section h2 {
+  margin-bottom: 50px;
+  max-width: 800px; }
+  @media only screen and (max-width: 991px) {
+    .storefont-expert-section h2 {
+      margin-bottom: 32px; } }
+@media only screen and (max-width: 991px) {
+  .storefont-expert-section .storefont-expert-col-main + .storefont-expert-col-main {
+    margin-top: 24px; } }
+.storefont-expert-section .storefont-expert-col {
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  overflow: hidden; }
+  .storefont-expert-section .storefont-expert-col .storefont-expert-upper {
+    border-bottom: 1px solid #E9E9E9; }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-upper img {
+        width: 36px; } }
+  .storefont-expert-section .storefont-expert-col .storefont-expert-lower {
+    padding: 32px 40px; }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-lower {
+        padding: 24px; } }
+  .storefont-expert-section .storefont-expert-col .storefont-expert-lower-label {
+    width: 180px; }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-lower-label {
+        width: 100%;
+        margin-bottom: 10px; } }
+  .storefont-expert-section .storefont-expert-col .storefont-expert-lower-data {
+    width: calc(100% - 220px); }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-lower-data {
+        width: 100%;
+        margin-left: 0; } }
+  .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row {
+    line-height: 1;
+    padding-bottom: 24px; }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row {
+        padding-bottom: 16px; } }
+    .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row:last-child {
+      padding-bottom: 0; }
+    @media only screen and (max-width: 991px) {
+      .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row {
+        flex-wrap: wrap; } }
+    .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row + .storefont-expert-lower-row {
+      border-top: 1px solid #E9E9E9;
+      padding-top: 24px; }
+      @media only screen and (max-width: 991px) {
+        .storefont-expert-section .storefont-expert-col .storefont-expert-lower-row + .storefont-expert-lower-row {
+          padding-top: 16px; } }
+
+.skillset-section .skillset-table table {
+  border-collapse: collapse;
+  color: #212b35;
+  border: 1px solid #E9E9E9; }
+  @media only screen and (max-width: 767px) {
+    .skillset-section .skillset-table table {
+      display: block;
+      border: 0; } }
+  @media only screen and (max-width: 767px) {
+    .skillset-section .skillset-table table tbody {
+      display: block; } }
+  @media only screen and (max-width: 767px) {
+    .skillset-section .skillset-table table tr {
+      display: block;
+      margin-bottom: 24px; } }
+  .skillset-section .skillset-table table tr th {
+    padding: 20px 30px;
+    text-align: left;
+    border: 1px solid #E9E9E9;
+    white-space: nowrap; }
+    @media only screen and (max-width: 1279px) {
+      .skillset-section .skillset-table table tr th {
+        display: block;
+        padding: 20px 16px;
+        border-bottom: 0; } }
+    .skillset-section .skillset-table table tr th h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      color: #212B35; }
+      @media only screen and (max-width: 1279px) {
+        .skillset-section .skillset-table table tr th h3 {
+          font-size: 18px;
+          line-height: 22px; } }
+  .skillset-section .skillset-table table tr td {
+    padding: 30px 30px 20px;
+    border: 1px solid #E9E9E9; }
+    @media only screen and (max-width: 1279px) {
+      .skillset-section .skillset-table table tr td {
+        display: block;
+        padding: 16px 16px 6px; } }
+    .skillset-section .skillset-table table tr td span {
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px 20px;
+      border: 1px solid #E9E9E9;
+      border-radius: 30px;
+      margin: 0 10px 10px 0; }
+
+@media only screen and (max-width: 767px) {
+  .column-border:nth-child(-n+2) .column-border-inner {
+    border-bottom: 0 solid rgba(255, 255, 255, 0.1); }
+
+  .column-border .column-border-inner {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
+.hire-shopify-developer-page .support-maintanance-faq-section [class*="col-"],
+.hire-vue-storefront-developer-page .support-maintanance-faq-section [class*="col-"],
+.hire-magento-developer-page .support-maintanance-faq-section [class*="col-"] {
+  flex: 0 0 50%;
+  max-width: 50%; }
+  @media only screen and (max-width: 767px) {
+    .hire-shopify-developer-page .support-maintanance-faq-section [class*="col-"],
+    .hire-vue-storefront-developer-page .support-maintanance-faq-section [class*="col-"],
+    .hire-magento-developer-page .support-maintanance-faq-section [class*="col-"] {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .hire-shopify-developer-page .support-maintanance-faq-section [class*="col-"] .section-heading,
+  .hire-vue-storefront-developer-page .support-maintanance-faq-section [class*="col-"] .section-heading,
+  .hire-magento-developer-page .support-maintanance-faq-section [class*="col-"] .section-heading {
+    max-width: 525px; }
+.hire-shopify-developer-page .support-maintanance-faq-section .faq-right,
+.hire-vue-storefront-developer-page .support-maintanance-faq-section .faq-right,
+.hire-magento-developer-page .support-maintanance-faq-section .faq-right {
+  padding-left: 0 !important; }
+@media screen and (min-width: 992px) {
+  .hire-shopify-developer-page .support-maintanance-contact-form-section .contact-form-right,
+  .hire-vue-storefront-developer-page .support-maintanance-contact-form-section .contact-form-right,
+  .hire-magento-developer-page .support-maintanance-contact-form-section .contact-form-right {
+    padding-left: 0 !important; } }
+
+.hire-shopify-developer-page .shopify-support-section .section-heading,
+.hire-vue-storefront-developer-page .shopify-support-section .section-heading,
+.hire-magento-developer-page .shopify-support-section .section-heading {
+  max-width: 800px; }
+.hire-shopify-developer-page .shopify-support-section .square-platform-box,
+.hire-vue-storefront-developer-page .shopify-support-section .square-platform-box,
+.hire-magento-developer-page .shopify-support-section .square-platform-box {
+  background-color: #FFFFFF; }
+
+.hire-magento-developer-page .hire-section [class*="col-"],
+.hire-magento-developer-page .advantages-of-hiring [class*="col-"] {
+  flex: 0 0 50%;
+  max-width: 50%; }
+  @media only screen and (max-width: 767px) {
+    .hire-magento-developer-page .hire-section [class*="col-"],
+    .hire-magento-developer-page .advantages-of-hiring [class*="col-"] {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .hire-magento-developer-page .hire-section [class*="col-"] .section-heading,
+  .hire-magento-developer-page .advantages-of-hiring [class*="col-"] .section-heading {
+    max-width: 525px; }
+@media only screen and (max-width: 991px) {
+  .hire-magento-developer-page .hire-section .checklist,
+  .hire-magento-developer-page .advantages-of-hiring .checklist {
+    margin-top: 32px; } }
+
+.hire-vue-storefront-developer-page .why-hire-vue-dev [class*="col-"],
+.hire-vue-storefront-developer-page .easy-steps [class*="col-"] {
+  flex: 0 0 50%;
+  max-width: 50%; }
+  @media only screen and (max-width: 767px) {
+    .hire-vue-storefront-developer-page .why-hire-vue-dev [class*="col-"],
+    .hire-vue-storefront-developer-page .easy-steps [class*="col-"] {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .hire-vue-storefront-developer-page .why-hire-vue-dev [class*="col-"] .section-heading,
+  .hire-vue-storefront-developer-page .easy-steps [class*="col-"] .section-heading {
+    max-width: 525px; }
+@media only screen and (max-width: 991px) {
+  .hire-vue-storefront-developer-page .why-hire-vue-dev .checklist,
+  .hire-vue-storefront-developer-page .easy-steps .checklist {
+    margin-top: 32px; } }
+.hire-vue-storefront-developer-page .why-hire-vue-dev .checklist {
+  max-width: 600px;
+  margin-left: auto; }
+  @media only screen and (max-width: 991px) {
+    .hire-vue-storefront-developer-page .why-hire-vue-dev .checklist {
+      margin-top: 32px; } }
+.hire-vue-storefront-developer-page .common-image-hire-vue-dev .left-content-desc {
+  max-width: 537px; }
+.hire-vue-storefront-developer-page .shopify-support-section .section-heading {
+  max-width: 800px; }
+.hire-vue-storefront-developer-page .shopify-support-section .square-platform-box {
+  background-color: #FFFFFF; }
+@media only screen and (max-width: 991px) {
+  .hire-vue-storefront-developer-page .counter-section .section-heading {
+    margin-bottom: 12px; } }
+.hire-vue-storefront-developer-page .easy-steps .section-heading {
+  max-width: 479px; }
+.hire-vue-storefront-developer-page .easy-steps .checklist {
+  max-width: 600px;
+  margin-left: auto; }
+  @media only screen and (max-width: 991px) {
+    .hire-vue-storefront-developer-page .easy-steps .checklist {
+      margin-top: 43px; } }
+
+.hire-shopify-developer-page .hire-section [class*="col-"] {
+  flex: 0 0 50%;
+  max-width: 50%; }
+  @media only screen and (max-width: 767px) {
+    .hire-shopify-developer-page .hire-section [class*="col-"] {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .hire-shopify-developer-page .hire-section [class*="col-"] .section-heading {
+    max-width: 525px; }
+@media only screen and (max-width: 991px) {
+  .hire-shopify-developer-page .hire-section .checklist {
+    margin-top: 32px; } }
+
+/*# sourceMappingURL=support-maintenance.css.map */

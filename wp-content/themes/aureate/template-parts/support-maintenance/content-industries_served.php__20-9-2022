@@ -1,0 +1,126 @@
+<?php
+if (!empty($args)) :
+    $background_color = isset($args['s4_sm_select_background_color']) ? $args['s4_sm_select_background_color'] : '';
+    $title = isset($args['s4_sm_title']) ? $args['s4_sm_title'] : '';
+    $Desc = isset($args['s4_sm_description']) ? $args['s4_sm_description'] : '';
+    $served_list = isset($args['s4_sm_served_list']) ? $args['s4_sm_served_list'] : array();
+
+    $backColor = 'bg-white';
+    if (!empty($background_color)) {
+        if ($background_color == 'light') {
+            $backColor = "bg-light";
+        } elseif ($background_color == 'dark') {
+            $backColor = "bg-dark";
+        } else {
+            $backColor = "bg-white";
+        }
+    }
+?>
+    <!-- Industries served -->
+    <section class="py-40 py-md-60 py-xl-100 <?php echo $backColor; ?>">
+        <div class="container">
+            <?php
+            if (!empty($title) || !empty($Desc)) : ?>
+                <div class="row">
+                    <div class="col-md-8">
+                        <?php if (!empty($title)) : ?>
+                            <h2 class="section-heading" data-aos="fade-up">
+                                <?php echo $title; ?>
+                            </h2>
+                        <?php endif; ?>
+
+                        <?php if (!empty($Desc)) : ?>
+                            <div data-aos="fade-up">
+                                <?php echo $Desc; ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if (!empty($served_list)) : ?>
+                <div class="industry-blocks pt-5">
+                    <?php
+                    $dir_path = get_template_directory();
+                    $dir_url = get_template_directory_uri();
+                    $imagePlaceHolderImage = wp_get_attachment_image(get_field('theme_placeholder_image', 'option'), array(600, 398));
+                    $iconPlaceHolderImage = wp_get_attachment_image(get_field('theme_placeholder_image', 'option'), array(300, 300));
+                    foreach ($served_list as $key => $industry_served) :
+                        $size = 'full';
+                        $iconImage = isset($industry_served['s4_sm_served_list_icon']) ? $industry_served['s4_sm_served_list_icon'] : '';
+                        $mainImage = isset($industry_served['s4_sm_served_list_image']) ? $industry_served['s4_sm_served_list_image'] : '';
+                        $titles = isset($industry_served['s4_sm_served_list_title']) ? $industry_served['s4_sm_served_list_title'] : '';
+                        $desc = isset($industry_served['s4_sm_served_list_content']) ? $industry_served['s4_sm_served_list_content'] : '';
+
+                         ?>
+                        <?php if (!empty($iconImage) || !empty($mainImage) || !empty($titles) || !empty($desc)) : ?>
+                            <div class="industry-blocks-row row align-items-center" data-aos="fade-up">
+                                <div class="col-md-6">
+                                    <div class="industry-blocks-image mb-4 mb-md-4">
+                                        <?php if (!empty($mainImage)) : ?>
+                                            <span><?php echo wp_get_attachment_image($mainImage, $size); ?></span>
+                                        <?php else : ?>
+                                            <span><?php echo $imagePlaceHolderImage; ?></span>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="industry-blocks-content py-0 py-md-4">
+                                            <?php
+                                            if(!empty($iconImage))
+                                            {
+                                                $svg_path = $dir_path.'/assets/icons/'.$iconImage.'.svg';
+                                                if ( file_exists( $svg_path ) ) 
+                                                {
+                                                    $svg = $dir_url.'/assets/icons/'.$iconImage.'.svg';
+                                                    if(!empty($svg))
+                                                    {   ?>
+                                                        <div class="industry-blocks-content-icon mb-3 pb-lg-3">
+                                                            <img src="<?php echo $svg; ?>" title="<?php echo $titles; ?>" alt="<?php echo $titles; ?>"  width="60" height="60" loading="lazy"/>   
+                                                        </div>                                            
+                                                        <?php
+                                                    }
+                                                }
+                                                else
+                                                {   ?>
+                                                    <div class="industry-blocks-content-icon mb-3 pb-lg-4">
+                                                    <?php echo $iconPlaceHolderImage; ?>
+                                                    </div>   
+                                                    <?php
+                                                }
+                                            }
+                                            else
+                                            {   ?>
+                                                 <div class="industry-blocks-content-icon mb-3 pb-lg-4">
+                                                <?php echo $iconPlaceHolderImage; ?>
+                                                </div>   
+                                                <?php
+                                            } 
+                                            ?>
+                                       
+                                        <?php if (!empty($titles)) : ?>
+                                            <h3 class="font-16 font-md-18 text-primary font-weight-medium m-0 pb-8 pb-md-16"><?php echo $titles; ?></h3>
+                                        <?php endif; ?>
+
+                                        <?php if (!empty($desc)) : ?>
+                                            <p class="font-14"><?php echo $desc; ?></p>
+                                        <?php endif; ?>
+
+                                        <?php if (isset($tagLine)) : ?>
+                                            <span><?php echo $tagLine; ?></span>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </section>
+    <div>
+        
+    </div>
+<?php endif; ?>

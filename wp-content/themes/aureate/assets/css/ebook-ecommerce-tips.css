@@ -1,0 +1,28 @@
+.ebook-banner {
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (max-width: 767px) {
+    .ebook-banner {
+      background-image: none !important; } }
+  .ebook-banner .ebook-mobile-banner {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .ebook-banner .ebook-mobile-banner img {
+      min-height: 420px;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+
+.e-book-form {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid #E9E9E9;
+  position: relative;
+  top: 90px;
+  border-radius: 10px; }
+  @media only screen and (max-width: 767px) {
+    .e-book-form {
+      border-radius: 6px;
+      top: 0; } }
+
+/*# sourceMappingURL=ebook-ecommerce-tips.css.map */

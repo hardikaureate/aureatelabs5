@@ -1,0 +1,55 @@
+$DMSans-font-path: "../fonts/DM-Sans";
+$ArgentCF-font-path: "../fonts/Argent-CF";
+$MarketWeb-font-path: "../fonts/Market-Web";
+
+/*Dm sans font start*/
+@font-face {
+    font-family: "DM Sans";
+    src: url("#{$DMSans-font-path}/DMSans-Regular.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("#{$DMSans-font-path}/DMSans-Regular-Italic.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("#{$DMSans-font-path}/DMSans-Medium.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url("#{$DMSans-font-path}/DMSans-Bold.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+/*End Dm sans font start*/
+
+/*Dm sans font start*/
+@font-face {
+    font-family: "Argent CF";
+    src: url("#{$ArgentCF-font-path}/ArgentCF-Regular.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/*End Dm sans font start*/
+
+/*Market Web font start*/
+@font-face {
+    font-family: "Market Web";
+    src: url("#{$MarketWeb-font-path}/Market-Web-Regular.woff2") format('woff2'); /* Super Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/*End Market Web font start*/

@@ -1,0 +1,14 @@
+clone:
+    depth: full # include all commits
+pipelines:
+  branches:
+    staging:
+      - step:
+          script:
+            - git push --force git@git.wpengine.com:production/aureatelabsstg.git staging
+            - echo "Pushed to staging"   
+    main:
+      - step:
+         script:
+           - git push git@git.wpengine.com:production/aureatelabs.git main
+           - echo "Pushed to Production server"

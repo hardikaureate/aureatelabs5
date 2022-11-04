@@ -1,0 +1,70 @@
+//== Font Variables
+$body-font-family:          'DM Sans', Arial, sans-serif; 
+$heading-font-family:       'Argent CF', Times, serif;
+$sub-heading-font-family:   'Market Web', serif;
+
+//== Font color
+$primary-color:             #212B35;
+$secondary-color:           #E7B900;
+$body-color:                #666666;
+$bg-light-color:            #F8F8F8;
+$white-color:               #FFFFFF;
+$black-color:               #000000;
+$A1A1A1:                    #A1A1A1;
+$mercury-color:             #E9E9E9;
+$concrete-color:            #f2f2f2;
+$mine-shaft-color:          #2F2F2F;
+$blue-color:                #006CFA;
+$red-color:                 #FF0000;
+$gray-light:                #6E7378;
+$primary-374049:            #374049;
+$silver-color:              #C4C4C4;
+
+$font-10:                   10px;
+$font-12:                   12px;
+$font-14:                   14px;
+$font-16:                   16px;
+$font-17:                   17px;
+$font-18:                   18px;
+$font-20:                   20px;
+$font-22:                   22px;
+$font-24:                   24px;
+$font-26:                   26px;
+$font-30:                   30px;
+$font-32:                   32px;
+$font-40:                   40px;
+$font-50:                   50px;
+$font-70:                   70px;
+
+//== Media queries breakpoints
+
+// Extra small screen / phone
+$screen-sm:                  360px;
+$screen-sm-min:              $screen-sm;
+
+// Small screen / tablet
+$screen-md:                  768px;
+$screen-md-min:              $screen-md;
+
+// Medium screen / desktop
+$screen-lg:                  992px;
+$screen-lg-min:              $screen-lg;
+
+// Large screen / wide desktop
+$screen-xl:                  1280px;
+$screen-xl-min:              $screen-xl;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+$screen-lg-max:              ($screen-xl-min - 1);
+
+//== Font Weight
+$font-weight-normal:        400;
+$font-weight-medium:        500;
+$font-weight-semibold:      600;
+$font-weight-bold:          700;
+
+$uppercase: uppercase;
+
+

@@ -1,0 +1,24 @@
+/*!
+Theme Name: Aureate Labs - Custom Theme
+Theme URI: https://aureatelabs.com/
+Author: Aureate Labs Team
+Author URI: https://aureatelabs.com/
+Description: Custom theme for Aureate Labs.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: aureate
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Aureate Labs, (C) 2012-2020
+*/
+
+/* All the common css will be written here e.g header,footer, any common section across all pages */
+
+
+/*This file is for Adminpanel*/

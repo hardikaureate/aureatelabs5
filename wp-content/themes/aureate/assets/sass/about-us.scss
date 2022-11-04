@@ -1,0 +1,226 @@
+@import "partials/variables";
+
+// About us page  CSS Start
+.about-us-page{
+  .page-banner{
+    h1{
+      max-width: 914px;
+    }
+    p{
+      max-width:800px;
+    }
+  }
+}
+.what_makes_different{
+  .what_makes_different_box{
+    border-radius: 10px;
+    border: 1px solid $mercury-color;
+    position: relative;
+    transition: all .3s ease;
+    overflow: hidden;
+    height: 100%;
+    margin-left: auto;
+  }
+}
+.our-stats{
+  .our-stats-counter{
+    [class*="col-"]{
+      @media only screen and (min-width: $screen-md-min) {
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+      p{
+        line-height: 23px;
+        @media only screen and (max-width: $screen-sm-max) {
+          line-height: 15px;
+        }
+      }
+    }
+  }
+}
+.our-trusted-partner{
+  .container{
+    max-width: 1020px;
+    [class*="col-"]{
+      line-height: 0;
+      margin:0 -2px -2px 0;
+      .our-trusted-partner-logo{
+        background: $white-color;
+        height: 100%;
+        border: solid 1px $mercury-color;
+        min-height: 120px;
+        @media only screen and (max-width: $screen-sm-max) {
+          min-height:80px;
+        }
+        img{
+          max-height: 100px;
+          max-width: 240px;
+          @media only screen and (max-width: $screen-sm-max) {
+            max-height: 70px;
+            max-width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.life-at-aureate-row{
+  padding-right: 25px;
+  padding-left: 25px;
+  .life-at-aureate-gallery{
+    margin-right: -10px;
+    margin-left: -10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-type: x mandatory;
+    -moz-scroll-snap-type: x mandatory;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory; 
+    .life-at-aureate-gallery-column{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+        position: relative;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        scroll-snap-align: start;
+        -webkit-box-flex: 0;
+        .life-at-aureate-gallery-image{
+            position: relative;
+            min-height: 300px;
+            padding-bottom: 142%;
+            background-color: $mercury-color;
+            img{    
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }    
+  }
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .life-at-aureate-row{
+      padding-right: 10px;
+      padding-left: 10px;
+      .life-at-aureate-gallery{
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar { 
+            display: none;
+        }
+        .life-at-aureate-gallery-column{
+            padding-right: 8px;
+            padding-left: 8px;
+            -ms-flex: 0 0 148px;
+            flex: 0 0 148px;
+            max-width: 148px;
+            .life-at-aureate-gallery-image{
+                min-height: 180px;
+                padding-bottom: 0;
+            }
+        }
+    }
+  }
+}
+
+.our-stats{
+  @media only screen and (max-width: $screen-sm-max) {
+    .our-stats-counter{
+      margin:0 -8px;
+      [class*="col-"]{
+        padding:0 8px;
+        .column-border-inner{
+          border-top: 1px solid $primary-374049;
+          border-bottom: 1px solid $primary-374049;
+          height: calc(100% - -1px);
+          margin-bottom: -1px;
+        }
+      }
+    }
+  }
+}
+// Vsf Logo slider start
+
+.vsf-logo-slider{
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100px;
+  --animationspeed: 45s;
+  --animationdelay: calc(var(--animationspeed) / 2);
+  @media only screen and (max-width: $screen-sm-max) {
+    height: 60px;
+  }
+  .vsf-logo-slider-track {
+      flex-shrink: 0;
+      position: absolute;
+      animation-name: slidelogo;
+      animation-duration: var(--animationspeed);
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      min-width: 100%;
+      display: flex;
+      justify-content: space-around;
+      &.delay {
+          transform: translateX(100%);
+          animation-name: slidelogo2;
+      }
+  }
+  .vsf-logo-slider-slide {
+      display: inline-flex;
+      align-self: center;
+      animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      padding: 0 35px;
+      @media only screen and (max-width: $screen-sm-max) {
+          padding: 0 20px;
+          img{
+              max-width: 100px;
+          }
+      }
+  }
+}
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes slidelogo {
+  from {
+      transform: translateX(0%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+@keyframes slidelogo2 {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0%);
+  }
+}
+// Vsf Logo slider
+
+.about-us-page{
+  .key-leadership-left{
+    max-width: 452px;
+  }
+}
+
+// About us page  CSS end

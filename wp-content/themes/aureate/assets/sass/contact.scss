@@ -1,0 +1,179 @@
+@import "partials/variables";
+
+
+.map-address-section{
+    @media screen and (max-width:$screen-md-max){
+        padding-top: 60px !important; 
+        padding-bottom: 60px !important; 
+    }
+    .locate-data{
+        max-width: 416px;
+        border-radius: 8px;
+        .locate-data-title{
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+        .locate-data-content{
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        .get-direction-btn{
+          color: $white-color;
+          &:before,
+          &:after{
+            opacity: 1;
+          }
+        }
+    }
+}
+
+.contact-page-banner{
+    @media screen  and (max-width:$screen-md-max){
+        background-image: none !important;
+    }
+    .contact-form {
+        box-shadow: 0px 4px 10px rgba($black-color, 0.15);
+        border: 1px solid $mercury-color;
+        position: relative;
+        border-radius: 10px;
+        top: 170px;
+        @media screen  and (max-width: $screen-md-max){
+            top: 0px;
+        }
+        textarea{
+            min-height: 140px;
+            resize: none;
+            @media screen  and (max-width: $screen-sm-max){
+                min-height: 100px;
+            }
+        }
+    }
+    .contact-banner-left-block{
+        padding-top: 120px !important;
+        padding-bottom: 60px;
+        @media screen  and (max-width: $screen-sm-max){
+            padding-bottom: 0px;
+            padding-top: 90px !important;
+        }
+        .section-heading{
+            @media screen  and (max-width: $screen-sm-max){
+                max-width: 100%;
+                display: block;
+            } 
+        }
+    }
+    .contact-mobile-banner {
+        position: absolute;
+        top: 0;
+        width: 100%;
+       img{
+            min-height: 720px;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            @media screen  and (max-width: $screen-sm-max){
+                min-height: 680px;
+            }
+       }
+    }
+}
+.good-hands-section {
+    padding-top: 190px !important;
+    @media screen and (max-width:$screen-md-max) {
+        padding-top: 80px !important;
+    }
+}
+.contact-banner-clutch-img{
+  img{
+    width: auto;
+    height: auto;
+    max-width: 171px;
+    max-height: 42px;
+  }
+}
+
+.mail-icon,
+.call-icon{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 32px;
+    background-size: 20px;
+    @media screen and (max-width:$screen-sm-max) {
+        padding-left: 30px;
+        background-size: 18px;
+    }
+}
+
+.call-icon{
+    background-image: url(../images/call-icon.svg);
+}
+.mail-icon{
+    background-image: url(../images/email-icon.svg);
+}
+
+.our-presense-section{
+    background: #F8F8F8;
+    .our-presence-blocks{
+        .our-presence-block-inner{
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            @media screen and (max-width:767px){
+                padding: 24px;
+            }
+            .img{
+                line-height: 1;
+                margin: -32px -32px 0;
+                @media screen and (max-width:767px){
+                    margin: -24px -24px 0;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            
+            p{
+
+                padding-top: 32px;
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 32px;
+                @media screen and (max-width:767px){
+                    font-size: 14px;
+                    line-height: 22px;
+                    padding-top: 24px;
+                    margin-bottom: 16px;
+                }
+            }
+            .btn-get-direction{
+                margin-top: auto;
+            }
+        }
+        
+
+        @media screen and (max-width:767px){
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            -webkit-scroll-snap-type: x mandatory;
+            -moz-scroll-snap-type: x mandatory;
+            -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+            scroll-padding: 0 24px;
+            padding-inline-start: 15px;
+            padding-inline-end: 15px;
+            overflow-y: hidden;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+    
+            .our-presence-block{
+                padding-right: 8px !important;
+                padding-left: 8px !important;
+                min-width: 258px;
+                scroll-snap-align: start;
+            }
+        }
+    }
+}
